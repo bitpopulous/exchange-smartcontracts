@@ -21,29 +21,14 @@ contract DepositContract is withAccessManager {
       * @dev The method also sets the manager to the msg.sender.
       * @param _clientId A string of fixed length representing the client ID.
       */
-    function DepositContract(bytes32 _clientId, address accessManager) public withAccessManager(accessManager) {
+    constructor(bytes32 _clientId, address accessManager) public withAccessManager(accessManager) {
         clientId = _clientId;
     }
-     
-    /** @dev Transfers an amount '_value' of tokens from msg.sender to '_to' address/wallet.
-      * @param populousTokenContract The address of the ERC20 token contract which implements the transfer method.
-      * @param _value the amount of tokens to transfer.
-      * @param _to The address/wallet to send to.
-      * @return success boolean true or false indicating whether the transfer was successful or not.
-      */
-    function transfer(address populousTokenContract, address _to, uint256 _value) public
-        onlyServerOrOnlyPopulous returns (bool success) 
-    {
-        return iERC20Token(populousTokenContract).transfer(_to, _value);
-    }
 
-    /** @dev This function will transfer iERC1155 tokens
-     */
-    function transferERC1155(address _erc1155Token, address _to, uint256 _id, uint256 _value) 
-        public onlyServerOrOnlyPopulous returns (bool success) {
-        ERC1155(_erc1155Token).safeTransfer(_to, _id, _value, "");
-        return true;
-    }
+    // TOKEN RECEIVERS
+
+    // payable function to allow this contract receive ether
+    function () public payable {}
 
     /**
     * @notice Handle the receipt of an NFT
@@ -79,6 +64,35 @@ contract DepositContract is withAccessManager {
         return 0xf23a6e61;
     }
 
+
+    // TOKEN SENDERS
+     
+    /** @dev Transfers an amount '_value' of tokens from msg.sender to '_to' address/wallet.
+      * @param populousTokenContract The address of the ERC20 token contract which implements the transfer method.
+      * @param _value the amount of tokens to transfer.
+      * @param _to The address/wallet to send to.
+      * @return success boolean true or false indicating whether the transfer was successful or not.
+      */
+    function transfer(address populousTokenContract, address _to, uint256 _value) public
+        onlyServerOrOnlyPopulous returns (bool success) 
+    {
+        return iERC20Token(populousTokenContract).transfer(_to, _value);
+    }
+
+    /** @dev Transfers ether from this contract to a specified wallet/address
+      * @param _to An address implementing to send ether to.
+      * @param _value The amount of ether to send in wei. 
+      * @return bool Successful or unsuccessful transfer
+      */
+    function transferEther(address _to, uint256 _value) public 
+        onlyServerOrOnlyPopulous returns (bool success) 
+    {
+        require(this.balance >= _value);
+        require(_to.send(_value) == true);
+        EtherTransfer(_to, _value);
+        return true;
+    }
+
     /**
     * @dev Safely transfers the ownership of a given token ID to another address
     * If the target address is a contract, it must implement `onERC721Received`,
@@ -103,23 +117,15 @@ contract DepositContract is withAccessManager {
         return true;
     }
 
-    /** @dev Transfers ether from this contract to a specified wallet/address
-      * @param _to An address implementing to send ether to.
-      * @param _value The amount of ether to send in wei. 
-      * @return bool Successful or unsuccessful transfer
-      */
-    function transferEther(address _to, uint256 _value) public 
-        onlyServerOrOnlyPopulous returns (bool success) 
-    {
-        require(this.balance >= _value);
-        require(_to.send(_value) == true);
-        EtherTransfer(_to, _value);
+    /** @dev This function will transfer iERC1155 tokens
+     */
+    function transferERC1155(address _erc1155Token, address _to, uint256 _id, uint256 _value) 
+        public onlyServerOrOnlyPopulous returns (bool success) {
+        ERC1155(_erc1155Token).safeTransfer(_to, _id, _value, "");
         return true;
     }
 
-    // payable function to allow this contract receive ether - for version 3
-    //function () public payable {}
-
+    
     // CONSTANT METHODS
     
     /** @dev Returns the ether or token balance of the current contract instance using the ERC20 balanceOf method.
