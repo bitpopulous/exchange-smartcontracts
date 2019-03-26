@@ -470,14 +470,14 @@
     "absolutePath": "/Users/najienka/Desktop/populous-app/populous-exchangecontracts/contracts/iDataManager.sol",
     "exportedSymbols": {
       "iDataManager": [
-        4464
+        5397
       ]
     },
-    "id": 4465,
+    "id": 5398,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 4301,
+        "id": 5234,
         "literals": [
           "solidity",
           "^",
@@ -485,7 +485,7 @@
           ".17"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:12"
+        "src": "0:24:16"
       },
       {
         "baseContracts": [],
@@ -493,20 +493,20 @@
         "contractKind": "contract",
         "documentation": "@title DataManager contract",
         "fullyImplemented": false,
-        "id": 4464,
+        "id": 5397,
         "linearizedBaseContracts": [
-          4464
+          5397
         ],
         "name": "iDataManager",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 4303,
+            "id": 5236,
             "name": "version",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "101:22:12",
+            "scope": 5397,
+            "src": "101:22:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -514,10 +514,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 4302,
+              "id": 5235,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "101:7:12",
+              "src": "101:7:16",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -528,11 +528,11 @@
           },
           {
             "constant": false,
-            "id": 4307,
+            "id": 5240,
             "name": "currencyAddresses",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "187:52:12",
+            "scope": 5397,
+            "src": "187:52:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -540,28 +540,28 @@
               "typeString": "mapping(bytes32 => address)"
             },
             "typeName": {
-              "id": 4306,
+              "id": 5239,
               "keyType": {
-                "id": 4304,
+                "id": 5237,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "195:7:12",
+                "src": "195:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "187:27:12",
+              "src": "187:27:16",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
                 "typeString": "mapping(bytes32 => address)"
               },
               "valueType": {
-                "id": 4305,
+                "id": 5238,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "206:7:12",
+                "src": "206:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
@@ -573,11 +573,11 @@
           },
           {
             "constant": false,
-            "id": 4311,
+            "id": 5244,
             "name": "currencySymbols",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "288:50:12",
+            "scope": 5397,
+            "src": "288:50:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -585,28 +585,28 @@
               "typeString": "mapping(address => bytes32)"
             },
             "typeName": {
-              "id": 4310,
+              "id": 5243,
               "keyType": {
-                "id": 4308,
+                "id": 5241,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "296:7:12",
+                "src": "296:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "288:27:12",
+              "src": "288:27:16",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
                 "typeString": "mapping(address => bytes32)"
               },
               "valueType": {
-                "id": 4309,
+                "id": 5242,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "307:7:12",
+                "src": "307:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
@@ -618,11 +618,11 @@
           },
           {
             "constant": false,
-            "id": 4315,
+            "id": 5248,
             "name": "depositAddresses",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "378:51:12",
+            "scope": 5397,
+            "src": "378:51:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -630,28 +630,28 @@
               "typeString": "mapping(bytes32 => address)"
             },
             "typeName": {
-              "id": 4314,
+              "id": 5247,
               "keyType": {
-                "id": 4312,
+                "id": 5245,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "386:7:12",
+                "src": "386:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "378:27:12",
+              "src": "378:27:16",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
                 "typeString": "mapping(bytes32 => address)"
               },
               "valueType": {
-                "id": 4313,
+                "id": 5246,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "397:7:12",
+                "src": "397:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
@@ -663,11 +663,11 @@
           },
           {
             "constant": false,
-            "id": 4319,
+            "id": 5252,
             "name": "depositClientIds",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "469:51:12",
+            "scope": 5397,
+            "src": "469:51:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -675,28 +675,28 @@
               "typeString": "mapping(address => bytes32)"
             },
             "typeName": {
-              "id": 4318,
+              "id": 5251,
               "keyType": {
-                "id": 4316,
+                "id": 5249,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "477:7:12",
+                "src": "477:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "469:27:12",
+              "src": "469:27:16",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
                 "typeString": "mapping(address => bytes32)"
               },
               "valueType": {
-                "id": 4317,
+                "id": 5250,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "488:7:12",
+                "src": "488:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
@@ -708,11 +708,11 @@
           },
           {
             "constant": false,
-            "id": 4323,
+            "id": 5256,
             "name": "actionStatus",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "564:44:12",
+            "scope": 5397,
+            "src": "564:44:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -720,28 +720,28 @@
               "typeString": "mapping(bytes32 => bool)"
             },
             "typeName": {
-              "id": 4322,
+              "id": 5255,
               "keyType": {
-                "id": 4320,
+                "id": 5253,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "572:7:12",
+                "src": "572:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "564:24:12",
+              "src": "564:24:16",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
                 "typeString": "mapping(bytes32 => bool)"
               },
               "valueType": {
-                "id": 4321,
+                "id": 5254,
                 "name": "bool",
                 "nodeType": "ElementaryTypeName",
-                "src": "583:4:12",
+                "src": "583:4:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bool",
                   "typeString": "bool"
@@ -753,15 +753,15 @@
           },
           {
             "canonicalName": "iDataManager.actionData",
-            "id": 4334,
+            "id": 5267,
             "members": [
               {
                 "constant": false,
-                "id": 4325,
+                "id": 5258,
                 "name": "currency",
                 "nodeType": "VariableDeclaration",
-                "scope": 4334,
-                "src": "670:16:12",
+                "scope": 5267,
+                "src": "670:16:16",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -769,10 +769,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 4324,
+                  "id": 5257,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "670:7:12",
+                  "src": "670:7:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -783,11 +783,11 @@
               },
               {
                 "constant": false,
-                "id": 4327,
+                "id": 5260,
                 "name": "amount",
                 "nodeType": "VariableDeclaration",
-                "scope": 4334,
-                "src": "696:11:12",
+                "scope": 5267,
+                "src": "696:11:16",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -795,10 +795,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 4326,
+                  "id": 5259,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "696:4:12",
+                  "src": "696:4:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -809,11 +809,11 @@
               },
               {
                 "constant": false,
-                "id": 4329,
+                "id": 5262,
                 "name": "accountId",
                 "nodeType": "VariableDeclaration",
-                "scope": 4334,
-                "src": "717:17:12",
+                "scope": 5267,
+                "src": "717:17:16",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -821,10 +821,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 4328,
+                  "id": 5261,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "717:7:12",
+                  "src": "717:7:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -835,11 +835,11 @@
               },
               {
                 "constant": false,
-                "id": 4331,
+                "id": 5264,
                 "name": "to",
                 "nodeType": "VariableDeclaration",
-                "scope": 4334,
-                "src": "744:10:12",
+                "scope": 5267,
+                "src": "744:10:16",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -847,10 +847,10 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 4330,
+                  "id": 5263,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "744:7:12",
+                  "src": "744:7:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
                     "typeString": "address"
@@ -861,11 +861,11 @@
               },
               {
                 "constant": false,
-                "id": 4333,
+                "id": 5266,
                 "name": "pptFee",
                 "nodeType": "VariableDeclaration",
-                "scope": 4334,
-                "src": "764:11:12",
+                "scope": 5267,
+                "src": "764:11:16",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -873,10 +873,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 4332,
+                  "id": 5265,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "764:4:12",
+                  "src": "764:4:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -888,50 +888,50 @@
             ],
             "name": "actionData",
             "nodeType": "StructDefinition",
-            "scope": 4464,
-            "src": "642:140:12",
+            "scope": 5397,
+            "src": "642:140:16",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 4338,
+            "id": 5271,
             "name": "blockchainActionIdData",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "827:60:12",
+            "scope": 5397,
+            "src": "827:60:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
+              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$5267_storage_$",
               "typeString": "mapping(bytes32 => struct iDataManager.actionData)"
             },
             "typeName": {
-              "id": 4337,
+              "id": 5270,
               "keyType": {
-                "id": 4335,
+                "id": 5268,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "835:7:12",
+                "src": "835:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "827:30:12",
+              "src": "827:30:16",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
+                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$5267_storage_$",
                 "typeString": "mapping(bytes32 => struct iDataManager.actionData)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 4336,
+                "id": 5269,
                 "name": "actionData",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 4334,
-                "src": "846:10:12",
+                "referencedDeclaration": 5267,
+                "src": "846:10:16",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_actionData_$4334_storage_ptr",
+                  "typeIdentifier": "t_struct$_actionData_$5267_storage_ptr",
                   "typeString": "struct iDataManager.actionData"
                 }
               }
@@ -942,7 +942,7 @@
           {
             "body": null,
             "documentation": "@dev Adds a new currency sumbol and smart contract address  \n@param _currencyAddress the currency smart contract address\n@param _currencySymbol the currency symbol\n@return success true/false denoting successful function call",
-            "id": 4349,
+            "id": 5282,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -950,16 +950,16 @@
             "name": "setCurrency",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4345,
+              "id": 5278,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4340,
+                  "id": 5273,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4349,
-                  "src": "1219:27:12",
+                  "scope": 5282,
+                  "src": "1219:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -967,10 +967,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4339,
+                    "id": 5272,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1219:7:12",
+                    "src": "1219:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -981,11 +981,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4342,
+                  "id": 5275,
                   "name": "_currencyAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4349,
-                  "src": "1248:24:12",
+                  "scope": 5282,
+                  "src": "1248:24:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -993,10 +993,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4341,
+                    "id": 5274,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1248:7:12",
+                    "src": "1248:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1007,11 +1007,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4344,
+                  "id": 5277,
                   "name": "_currencySymbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4349,
-                  "src": "1274:23:12",
+                  "scope": 5282,
+                  "src": "1274:23:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1019,10 +1019,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4343,
+                    "id": 5276,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1274:7:12",
+                    "src": "1274:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1032,20 +1032,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1218:80:12"
+              "src": "1218:80:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4348,
+              "id": 5281,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4347,
+                  "id": 5280,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4349,
-                  "src": "1315:12:12",
+                  "scope": 5282,
+                  "src": "1315:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1053,10 +1053,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4346,
+                    "id": 5279,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1315:4:12",
+                    "src": "1315:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1066,10 +1066,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1314:14:12"
+              "src": "1314:14:16"
             },
-            "scope": 4464,
-            "src": "1198:131:12",
+            "scope": 5397,
+            "src": "1198:131:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -1077,7 +1077,7 @@
           {
             "body": null,
             "documentation": "@dev Updates a currency sumbol and smart contract address  \n@param _currencyAddress the currency smart contract address\n@param _currencySymbol the currency symbol\n@return success true/false denoting successful function call",
-            "id": 4360,
+            "id": 5293,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1085,16 +1085,16 @@
             "name": "_setCurrency",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4356,
+              "id": 5289,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4351,
+                  "id": 5284,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4360,
-                  "src": "1622:27:12",
+                  "scope": 5293,
+                  "src": "1622:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1102,10 +1102,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4350,
+                    "id": 5283,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1622:7:12",
+                    "src": "1622:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1116,11 +1116,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4353,
+                  "id": 5286,
                   "name": "_currencyAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4360,
-                  "src": "1651:24:12",
+                  "scope": 5293,
+                  "src": "1651:24:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1128,10 +1128,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4352,
+                    "id": 5285,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1651:7:12",
+                    "src": "1651:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1142,11 +1142,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4355,
+                  "id": 5288,
                   "name": "_currencySymbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4360,
-                  "src": "1677:23:12",
+                  "scope": 5293,
+                  "src": "1677:23:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1154,10 +1154,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4354,
+                    "id": 5287,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1677:7:12",
+                    "src": "1677:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1167,20 +1167,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1621:80:12"
+              "src": "1621:80:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4359,
+              "id": 5292,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4358,
+                  "id": 5291,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4360,
-                  "src": "1718:12:12",
+                  "scope": 5293,
+                  "src": "1718:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1188,10 +1188,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4357,
+                    "id": 5290,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1718:4:12",
+                    "src": "1718:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1201,10 +1201,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1717:14:12"
+              "src": "1717:14:16"
             },
-            "scope": 4464,
-            "src": "1600:132:12",
+            "scope": 5397,
+            "src": "1600:132:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -1212,7 +1212,7 @@
           {
             "body": null,
             "documentation": "@dev set blockchain action data in struct \n@param _blockchainActionId the blockchain action id\n@param currency the token currency symbol\n@param accountId the clientId\n@param to the blockchain address or smart contract address used in the transaction\n@param amount the amount of tokens in the transaction\n@return success true/false denoting successful function call",
-            "id": 4377,
+            "id": 5310,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1220,16 +1220,16 @@
             "name": "setBlockchainActionData",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4373,
+              "id": 5306,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4362,
+                  "id": 5295,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2211:27:12",
+                  "scope": 5310,
+                  "src": "2211:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1237,10 +1237,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4361,
+                    "id": 5294,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2211:7:12",
+                    "src": "2211:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1251,11 +1251,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4364,
+                  "id": 5297,
                   "name": "currency",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2240:16:12",
+                  "scope": 5310,
+                  "src": "2240:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1263,10 +1263,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4363,
+                    "id": 5296,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2240:7:12",
+                    "src": "2240:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1277,11 +1277,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4366,
+                  "id": 5299,
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2267:11:12",
+                  "scope": 5310,
+                  "src": "2267:11:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1289,10 +1289,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4365,
+                    "id": 5298,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2267:4:12",
+                    "src": "2267:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1303,11 +1303,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4368,
+                  "id": 5301,
                   "name": "accountId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2280:17:12",
+                  "scope": 5310,
+                  "src": "2280:17:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1315,10 +1315,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4367,
+                    "id": 5300,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2280:7:12",
+                    "src": "2280:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1329,11 +1329,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4370,
+                  "id": 5303,
                   "name": "to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2299:10:12",
+                  "scope": 5310,
+                  "src": "2299:10:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1341,10 +1341,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4369,
+                    "id": 5302,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2299:7:12",
+                    "src": "2299:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1355,11 +1355,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4372,
+                  "id": 5305,
                   "name": "pptFee",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2311:11:12",
+                  "scope": 5310,
+                  "src": "2311:11:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1367,10 +1367,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4371,
+                    "id": 5304,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2311:4:12",
+                    "src": "2311:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1380,20 +1380,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2201:122:12"
+              "src": "2201:122:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4376,
+              "id": 5309,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4375,
+                  "id": 5308,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2358:12:12",
+                  "scope": 5310,
+                  "src": "2358:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1401,10 +1401,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4374,
+                    "id": 5307,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2358:4:12",
+                    "src": "2358:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1414,10 +1414,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2357:14:12"
+              "src": "2357:14:16"
             },
-            "scope": 4464,
-            "src": "2169:203:12",
+            "scope": 5397,
+            "src": "2169:203:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -1425,7 +1425,7 @@
           {
             "body": null,
             "documentation": "@dev Updates a deposit address for client id\n@param _blockchainActionId the blockchain action id\n@param _clientId the client id\n@param _depositContract the deposit contract address for the client\n@return success true/false denoting successful function call",
-            "id": 4388,
+            "id": 5321,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1433,16 +1433,16 @@
             "name": "_setDepositAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4384,
+              "id": 5317,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4379,
+                  "id": 5312,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4388,
-                  "src": "2716:27:12",
+                  "scope": 5321,
+                  "src": "2716:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1450,10 +1450,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4378,
+                    "id": 5311,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2716:7:12",
+                    "src": "2716:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1464,11 +1464,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4381,
+                  "id": 5314,
                   "name": "_clientId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4388,
-                  "src": "2745:17:12",
+                  "scope": 5321,
+                  "src": "2745:17:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1476,10 +1476,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4380,
+                    "id": 5313,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2745:7:12",
+                    "src": "2745:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1490,11 +1490,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4383,
+                  "id": 5316,
                   "name": "_depositContract",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4388,
-                  "src": "2764:24:12",
+                  "scope": 5321,
+                  "src": "2764:24:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1502,10 +1502,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4382,
+                    "id": 5315,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2764:7:12",
+                    "src": "2764:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1515,20 +1515,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2715:74:12"
+              "src": "2715:74:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4387,
+              "id": 5320,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4386,
+                  "id": 5319,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4388,
-                  "src": "2806:12:12",
+                  "scope": 5321,
+                  "src": "2806:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1536,10 +1536,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4385,
+                    "id": 5318,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2806:4:12",
+                    "src": "2806:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1549,10 +1549,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2805:14:12"
+              "src": "2805:14:16"
             },
-            "scope": 4464,
-            "src": "2688:132:12",
+            "scope": 5397,
+            "src": "2688:132:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -1560,7 +1560,7 @@
           {
             "body": null,
             "documentation": "@dev Adds a new deposit smart contract address linked to a client id\n@param _depositAddress the deposit smart contract address\n@param _clientId the client id\n@return success true/false denoting successful function call",
-            "id": 4399,
+            "id": 5332,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -1568,16 +1568,16 @@
             "name": "setDepositAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4395,
+              "id": 5328,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4390,
+                  "id": 5323,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4399,
-                  "src": "3113:27:12",
+                  "scope": 5332,
+                  "src": "3113:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1585,10 +1585,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4389,
+                    "id": 5322,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3113:7:12",
+                    "src": "3113:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1599,11 +1599,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4392,
+                  "id": 5325,
                   "name": "_depositAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4399,
-                  "src": "3142:23:12",
+                  "scope": 5332,
+                  "src": "3142:23:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1611,10 +1611,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4391,
+                    "id": 5324,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3142:7:12",
+                    "src": "3142:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1625,11 +1625,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4394,
+                  "id": 5327,
                   "name": "_clientId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4399,
-                  "src": "3167:17:12",
+                  "scope": 5332,
+                  "src": "3167:17:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1637,10 +1637,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4393,
+                    "id": 5326,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3167:7:12",
+                    "src": "3167:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1650,20 +1650,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3112:73:12"
+              "src": "3112:73:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4398,
+              "id": 5331,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4397,
+                  "id": 5330,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4399,
-                  "src": "3202:12:12",
+                  "scope": 5332,
+                  "src": "3202:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1671,10 +1671,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4396,
+                    "id": 5329,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3202:4:12",
+                    "src": "3202:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1684,10 +1684,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3201:14:12"
+              "src": "3201:14:16"
             },
-            "scope": 4464,
-            "src": "3086:130:12",
+            "scope": 5397,
+            "src": "3086:130:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -1695,7 +1695,7 @@
           {
             "body": null,
             "documentation": "@dev Gets a deposit address with the client id \n@return clientDepositAddress The client's deposit address",
-            "id": 4406,
+            "id": 5339,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1703,16 +1703,16 @@
             "name": "getDepositAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4402,
+              "id": 5335,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4401,
+                  "id": 5334,
                   "name": "_clientId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4406,
-                  "src": "3405:17:12",
+                  "scope": 5339,
+                  "src": "3405:17:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1720,10 +1720,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4400,
+                    "id": 5333,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3405:7:12",
+                    "src": "3405:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1733,20 +1733,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3404:19:12"
+              "src": "3404:19:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4405,
+              "id": 5338,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4404,
+                  "id": 5337,
                   "name": "clientDepositAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4406,
-                  "src": "3445:28:12",
+                  "scope": 5339,
+                  "src": "3445:28:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1754,10 +1754,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4403,
+                    "id": 5336,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3445:7:12",
+                    "src": "3445:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1767,10 +1767,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3444:30:12"
+              "src": "3444:30:16"
             },
-            "scope": 4464,
-            "src": "3378:97:12",
+            "scope": 5397,
+            "src": "3378:97:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -1778,7 +1778,7 @@
           {
             "body": null,
             "documentation": "@dev Gets a client id linked to a deposit address \n@return depositClientId The client id",
-            "id": 4413,
+            "id": 5346,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1786,16 +1786,16 @@
             "name": "getClientIdWithDepositAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4409,
+              "id": 5342,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4408,
+                  "id": 5341,
                   "name": "_depositContract",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4413,
-                  "src": "3635:24:12",
+                  "scope": 5346,
+                  "src": "3635:24:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1803,10 +1803,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4407,
+                    "id": 5340,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3635:7:12",
+                    "src": "3635:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1816,20 +1816,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3634:26:12"
+              "src": "3634:26:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4412,
+              "id": 5345,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4411,
+                  "id": 5344,
                   "name": "depositClientId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4413,
-                  "src": "3682:23:12",
+                  "scope": 5346,
+                  "src": "3682:23:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1837,10 +1837,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4410,
+                    "id": 5343,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3682:7:12",
+                    "src": "3682:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1850,10 +1850,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3681:25:12"
+              "src": "3681:25:16"
             },
-            "scope": 4464,
-            "src": "3596:111:12",
+            "scope": 5397,
+            "src": "3596:111:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -1861,7 +1861,7 @@
           {
             "body": null,
             "documentation": "@dev Gets a currency smart contract address \n@return currencyAddress The currency address",
-            "id": 4420,
+            "id": 5353,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1869,16 +1869,16 @@
             "name": "getCurrency",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4416,
+              "id": 5349,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4415,
+                  "id": 5348,
                   "name": "_currencySymbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4420,
-                  "src": "3850:23:12",
+                  "scope": 5353,
+                  "src": "3850:23:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1886,10 +1886,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4414,
+                    "id": 5347,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3850:7:12",
+                    "src": "3850:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -1899,20 +1899,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3849:25:12"
+              "src": "3849:25:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4419,
+              "id": 5352,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4418,
+                  "id": 5351,
                   "name": "currencyAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4420,
-                  "src": "3896:23:12",
+                  "scope": 5353,
+                  "src": "3896:23:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1920,10 +1920,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4417,
+                    "id": 5350,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3896:7:12",
+                    "src": "3896:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1933,10 +1933,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3895:25:12"
+              "src": "3895:25:16"
             },
-            "scope": 4464,
-            "src": "3829:92:12",
+            "scope": 5397,
+            "src": "3829:92:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -1944,7 +1944,7 @@
           {
             "body": null,
             "documentation": "@dev Gets a currency symbol given it's smart contract address \n@return currencySymbol The currency symbol",
-            "id": 4427,
+            "id": 5360,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -1952,16 +1952,16 @@
             "name": "getCurrencySymbol",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4423,
+              "id": 5356,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4422,
+                  "id": 5355,
                   "name": "_currencyAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4427,
-                  "src": "4089:24:12",
+                  "scope": 5360,
+                  "src": "4089:24:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1969,10 +1969,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4421,
+                    "id": 5354,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4089:7:12",
+                    "src": "4089:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1982,20 +1982,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "4088:26:12"
+              "src": "4088:26:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4426,
+              "id": 5359,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4425,
+                  "id": 5358,
                   "name": "currencySymbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4427,
-                  "src": "4136:22:12",
+                  "scope": 5360,
+                  "src": "4136:22:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2003,10 +2003,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4424,
+                    "id": 5357,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4136:7:12",
+                    "src": "4136:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2016,10 +2016,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "4135:24:12"
+              "src": "4135:24:16"
             },
-            "scope": 4464,
-            "src": "4062:98:12",
+            "scope": 5397,
+            "src": "4062:98:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -2027,7 +2027,7 @@
           {
             "body": null,
             "documentation": "@dev Gets details of a currency given it's smart contract address \n@return _symbol The currency symbol\n@return _name The currency name\n@return _decimals The currency decimal places/precision",
-            "id": 4438,
+            "id": 5371,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -2035,16 +2035,16 @@
             "name": "getCurrencyDetails",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4430,
+              "id": 5363,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4429,
+                  "id": 5362,
                   "name": "_currencyAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4438,
-                  "src": "4426:24:12",
+                  "scope": 5371,
+                  "src": "4426:24:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2052,10 +2052,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4428,
+                    "id": 5361,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4426:7:12",
+                    "src": "4426:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -2065,20 +2065,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "4425:26:12"
+              "src": "4425:26:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4437,
+              "id": 5370,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4432,
+                  "id": 5365,
                   "name": "_symbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4438,
-                  "src": "4473:15:12",
+                  "scope": 5371,
+                  "src": "4473:15:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2086,10 +2086,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4431,
+                    "id": 5364,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4473:7:12",
+                    "src": "4473:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2100,11 +2100,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4434,
+                  "id": 5367,
                   "name": "_name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4438,
-                  "src": "4490:13:12",
+                  "scope": 5371,
+                  "src": "4490:13:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2112,10 +2112,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4433,
+                    "id": 5366,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4490:7:12",
+                    "src": "4490:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2126,11 +2126,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4436,
+                  "id": 5369,
                   "name": "_decimals",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4438,
-                  "src": "4505:15:12",
+                  "scope": 5371,
+                  "src": "4505:15:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2138,10 +2138,10 @@
                     "typeString": "uint8"
                   },
                   "typeName": {
-                    "id": 4435,
+                    "id": 5368,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4505:5:12",
+                    "src": "4505:5:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -2151,10 +2151,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "4472:49:12"
+              "src": "4472:49:16"
             },
-            "scope": 4464,
-            "src": "4398:124:12",
+            "scope": 5397,
+            "src": "4398:124:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -2162,7 +2162,7 @@
           {
             "body": null,
             "documentation": "@dev Get the blockchain action Id Data for a blockchain Action id\n@param _blockchainActionId the blockchain action id\n@return bytes32 currency\n@return uint amount\n@return bytes32 accountId\n@return address to",
-            "id": 4451,
+            "id": 5384,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -2170,16 +2170,16 @@
             "name": "getBlockchainActionIdData",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4441,
+              "id": 5374,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4440,
+                  "id": 5373,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4451,
-                  "src": "4828:27:12",
+                  "scope": 5384,
+                  "src": "4828:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2187,10 +2187,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4439,
+                    "id": 5372,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4828:7:12",
+                    "src": "4828:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2200,20 +2200,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "4827:29:12"
+              "src": "4827:29:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4450,
+              "id": 5383,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4443,
+                  "id": 5376,
                   "name": "_currency",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4451,
-                  "src": "4878:17:12",
+                  "scope": 5384,
+                  "src": "4878:17:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2221,10 +2221,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4442,
+                    "id": 5375,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4878:7:12",
+                    "src": "4878:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2235,11 +2235,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4445,
+                  "id": 5378,
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4451,
-                  "src": "4897:12:12",
+                  "scope": 5384,
+                  "src": "4897:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2247,10 +2247,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4444,
+                    "id": 5377,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4897:4:12",
+                    "src": "4897:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2261,11 +2261,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4447,
+                  "id": 5380,
                   "name": "_accountId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4451,
-                  "src": "4911:18:12",
+                  "scope": 5384,
+                  "src": "4911:18:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2273,10 +2273,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4446,
+                    "id": 5379,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4911:7:12",
+                    "src": "4911:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2287,11 +2287,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4449,
+                  "id": 5382,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4451,
-                  "src": "4931:11:12",
+                  "scope": 5384,
+                  "src": "4931:11:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2299,10 +2299,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4448,
+                    "id": 5381,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4931:7:12",
+                    "src": "4931:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -2312,10 +2312,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "4877:66:12"
+              "src": "4877:66:16"
             },
-            "scope": 4464,
-            "src": "4793:151:12",
+            "scope": 5397,
+            "src": "4793:151:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -2323,7 +2323,7 @@
           {
             "body": null,
             "documentation": "@dev Get the bool status of a blockchain Action id\n@param _blockchainActionId the blockchain action id\n@return bool actionStatus",
-            "id": 4458,
+            "id": 5391,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -2331,16 +2331,16 @@
             "name": "getActionStatus",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4454,
+              "id": 5387,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4453,
+                  "id": 5386,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4458,
-                  "src": "5138:27:12",
+                  "scope": 5391,
+                  "src": "5138:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2348,10 +2348,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4452,
+                    "id": 5385,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5138:7:12",
+                    "src": "5138:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2361,20 +2361,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "5137:29:12"
+              "src": "5137:29:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4457,
+              "id": 5390,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4456,
+                  "id": 5389,
                   "name": "_blockchainActionStatus",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4458,
-                  "src": "5188:28:12",
+                  "scope": 5391,
+                  "src": "5188:28:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2382,10 +2382,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4455,
+                    "id": 5388,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5188:4:12",
+                    "src": "5188:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -2395,10 +2395,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "5187:30:12"
+              "src": "5187:30:16"
             },
-            "scope": 4464,
-            "src": "5113:105:12",
+            "scope": 5397,
+            "src": "5113:105:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -2406,7 +2406,7 @@
           {
             "body": null,
             "documentation": "@dev Gets the version number for the current contract instance\n@return _version The version number",
-            "id": 4463,
+            "id": 5396,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -2414,23 +2414,23 @@
             "name": "getVersion",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4459,
+              "id": 5392,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "5367:2:12"
+              "src": "5367:2:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4462,
+              "id": 5395,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4461,
+                  "id": 5394,
                   "name": "_version",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4463,
-                  "src": "5391:16:12",
+                  "scope": 5396,
+                  "src": "5391:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2438,10 +2438,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4460,
+                    "id": 5393,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5391:7:12",
+                    "src": "5391:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2451,33 +2451,33 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "5390:18:12"
+              "src": "5390:18:16"
             },
-            "scope": 4464,
-            "src": "5348:61:12",
+            "scope": 5397,
+            "src": "5348:61:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 4465,
-        "src": "59:5353:12"
+        "scope": 5398,
+        "src": "59:5353:16"
       }
     ],
-    "src": "0:5412:12"
+    "src": "0:5412:16"
   },
   "legacyAST": {
     "absolutePath": "/Users/najienka/Desktop/populous-app/populous-exchangecontracts/contracts/iDataManager.sol",
     "exportedSymbols": {
       "iDataManager": [
-        4464
+        5397
       ]
     },
-    "id": 4465,
+    "id": 5398,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 4301,
+        "id": 5234,
         "literals": [
           "solidity",
           "^",
@@ -2485,7 +2485,7 @@
           ".17"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:12"
+        "src": "0:24:16"
       },
       {
         "baseContracts": [],
@@ -2493,20 +2493,20 @@
         "contractKind": "contract",
         "documentation": "@title DataManager contract",
         "fullyImplemented": false,
-        "id": 4464,
+        "id": 5397,
         "linearizedBaseContracts": [
-          4464
+          5397
         ],
         "name": "iDataManager",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 4303,
+            "id": 5236,
             "name": "version",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "101:22:12",
+            "scope": 5397,
+            "src": "101:22:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2514,10 +2514,10 @@
               "typeString": "uint256"
             },
             "typeName": {
-              "id": 4302,
+              "id": 5235,
               "name": "uint256",
               "nodeType": "ElementaryTypeName",
-              "src": "101:7:12",
+              "src": "101:7:16",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -2528,11 +2528,11 @@
           },
           {
             "constant": false,
-            "id": 4307,
+            "id": 5240,
             "name": "currencyAddresses",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "187:52:12",
+            "scope": 5397,
+            "src": "187:52:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2540,28 +2540,28 @@
               "typeString": "mapping(bytes32 => address)"
             },
             "typeName": {
-              "id": 4306,
+              "id": 5239,
               "keyType": {
-                "id": 4304,
+                "id": 5237,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "195:7:12",
+                "src": "195:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "187:27:12",
+              "src": "187:27:16",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
                 "typeString": "mapping(bytes32 => address)"
               },
               "valueType": {
-                "id": 4305,
+                "id": 5238,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "206:7:12",
+                "src": "206:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
@@ -2573,11 +2573,11 @@
           },
           {
             "constant": false,
-            "id": 4311,
+            "id": 5244,
             "name": "currencySymbols",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "288:50:12",
+            "scope": 5397,
+            "src": "288:50:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2585,28 +2585,28 @@
               "typeString": "mapping(address => bytes32)"
             },
             "typeName": {
-              "id": 4310,
+              "id": 5243,
               "keyType": {
-                "id": 4308,
+                "id": 5241,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "296:7:12",
+                "src": "296:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "288:27:12",
+              "src": "288:27:16",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
                 "typeString": "mapping(address => bytes32)"
               },
               "valueType": {
-                "id": 4309,
+                "id": 5242,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "307:7:12",
+                "src": "307:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
@@ -2618,11 +2618,11 @@
           },
           {
             "constant": false,
-            "id": 4315,
+            "id": 5248,
             "name": "depositAddresses",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "378:51:12",
+            "scope": 5397,
+            "src": "378:51:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2630,28 +2630,28 @@
               "typeString": "mapping(bytes32 => address)"
             },
             "typeName": {
-              "id": 4314,
+              "id": 5247,
               "keyType": {
-                "id": 4312,
+                "id": 5245,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "386:7:12",
+                "src": "386:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "378:27:12",
+              "src": "378:27:16",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
                 "typeString": "mapping(bytes32 => address)"
               },
               "valueType": {
-                "id": 4313,
+                "id": 5246,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "397:7:12",
+                "src": "397:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
@@ -2663,11 +2663,11 @@
           },
           {
             "constant": false,
-            "id": 4319,
+            "id": 5252,
             "name": "depositClientIds",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "469:51:12",
+            "scope": 5397,
+            "src": "469:51:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2675,28 +2675,28 @@
               "typeString": "mapping(address => bytes32)"
             },
             "typeName": {
-              "id": 4318,
+              "id": 5251,
               "keyType": {
-                "id": 4316,
+                "id": 5249,
                 "name": "address",
                 "nodeType": "ElementaryTypeName",
-                "src": "477:7:12",
+                "src": "477:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_address",
                   "typeString": "address"
                 }
               },
               "nodeType": "Mapping",
-              "src": "469:27:12",
+              "src": "469:27:16",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
                 "typeString": "mapping(address => bytes32)"
               },
               "valueType": {
-                "id": 4317,
+                "id": 5250,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "488:7:12",
+                "src": "488:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
@@ -2708,11 +2708,11 @@
           },
           {
             "constant": false,
-            "id": 4323,
+            "id": 5256,
             "name": "actionStatus",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "564:44:12",
+            "scope": 5397,
+            "src": "564:44:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -2720,28 +2720,28 @@
               "typeString": "mapping(bytes32 => bool)"
             },
             "typeName": {
-              "id": 4322,
+              "id": 5255,
               "keyType": {
-                "id": 4320,
+                "id": 5253,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "572:7:12",
+                "src": "572:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "564:24:12",
+              "src": "564:24:16",
               "typeDescriptions": {
                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
                 "typeString": "mapping(bytes32 => bool)"
               },
               "valueType": {
-                "id": 4321,
+                "id": 5254,
                 "name": "bool",
                 "nodeType": "ElementaryTypeName",
-                "src": "583:4:12",
+                "src": "583:4:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bool",
                   "typeString": "bool"
@@ -2753,15 +2753,15 @@
           },
           {
             "canonicalName": "iDataManager.actionData",
-            "id": 4334,
+            "id": 5267,
             "members": [
               {
                 "constant": false,
-                "id": 4325,
+                "id": 5258,
                 "name": "currency",
                 "nodeType": "VariableDeclaration",
-                "scope": 4334,
-                "src": "670:16:12",
+                "scope": 5267,
+                "src": "670:16:16",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2769,10 +2769,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 4324,
+                  "id": 5257,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "670:7:12",
+                  "src": "670:7:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -2783,11 +2783,11 @@
               },
               {
                 "constant": false,
-                "id": 4327,
+                "id": 5260,
                 "name": "amount",
                 "nodeType": "VariableDeclaration",
-                "scope": 4334,
-                "src": "696:11:12",
+                "scope": 5267,
+                "src": "696:11:16",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2795,10 +2795,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 4326,
+                  "id": 5259,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "696:4:12",
+                  "src": "696:4:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -2809,11 +2809,11 @@
               },
               {
                 "constant": false,
-                "id": 4329,
+                "id": 5262,
                 "name": "accountId",
                 "nodeType": "VariableDeclaration",
-                "scope": 4334,
-                "src": "717:17:12",
+                "scope": 5267,
+                "src": "717:17:16",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2821,10 +2821,10 @@
                   "typeString": "bytes32"
                 },
                 "typeName": {
-                  "id": 4328,
+                  "id": 5261,
                   "name": "bytes32",
                   "nodeType": "ElementaryTypeName",
-                  "src": "717:7:12",
+                  "src": "717:7:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_bytes32",
                     "typeString": "bytes32"
@@ -2835,11 +2835,11 @@
               },
               {
                 "constant": false,
-                "id": 4331,
+                "id": 5264,
                 "name": "to",
                 "nodeType": "VariableDeclaration",
-                "scope": 4334,
-                "src": "744:10:12",
+                "scope": 5267,
+                "src": "744:10:16",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2847,10 +2847,10 @@
                   "typeString": "address"
                 },
                 "typeName": {
-                  "id": 4330,
+                  "id": 5263,
                   "name": "address",
                   "nodeType": "ElementaryTypeName",
-                  "src": "744:7:12",
+                  "src": "744:7:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_address",
                     "typeString": "address"
@@ -2861,11 +2861,11 @@
               },
               {
                 "constant": false,
-                "id": 4333,
+                "id": 5266,
                 "name": "pptFee",
                 "nodeType": "VariableDeclaration",
-                "scope": 4334,
-                "src": "764:11:12",
+                "scope": 5267,
+                "src": "764:11:16",
                 "stateVariable": false,
                 "storageLocation": "default",
                 "typeDescriptions": {
@@ -2873,10 +2873,10 @@
                   "typeString": "uint256"
                 },
                 "typeName": {
-                  "id": 4332,
+                  "id": 5265,
                   "name": "uint",
                   "nodeType": "ElementaryTypeName",
-                  "src": "764:4:12",
+                  "src": "764:4:16",
                   "typeDescriptions": {
                     "typeIdentifier": "t_uint256",
                     "typeString": "uint256"
@@ -2888,50 +2888,50 @@
             ],
             "name": "actionData",
             "nodeType": "StructDefinition",
-            "scope": 4464,
-            "src": "642:140:12",
+            "scope": 5397,
+            "src": "642:140:16",
             "visibility": "public"
           },
           {
             "constant": false,
-            "id": 4338,
+            "id": 5271,
             "name": "blockchainActionIdData",
             "nodeType": "VariableDeclaration",
-            "scope": 4464,
-            "src": "827:60:12",
+            "scope": 5397,
+            "src": "827:60:16",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
+              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$5267_storage_$",
               "typeString": "mapping(bytes32 => struct iDataManager.actionData)"
             },
             "typeName": {
-              "id": 4337,
+              "id": 5270,
               "keyType": {
-                "id": 4335,
+                "id": 5268,
                 "name": "bytes32",
                 "nodeType": "ElementaryTypeName",
-                "src": "835:7:12",
+                "src": "835:7:16",
                 "typeDescriptions": {
                   "typeIdentifier": "t_bytes32",
                   "typeString": "bytes32"
                 }
               },
               "nodeType": "Mapping",
-              "src": "827:30:12",
+              "src": "827:30:16",
               "typeDescriptions": {
-                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
+                "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$5267_storage_$",
                 "typeString": "mapping(bytes32 => struct iDataManager.actionData)"
               },
               "valueType": {
                 "contractScope": null,
-                "id": 4336,
+                "id": 5269,
                 "name": "actionData",
                 "nodeType": "UserDefinedTypeName",
-                "referencedDeclaration": 4334,
-                "src": "846:10:12",
+                "referencedDeclaration": 5267,
+                "src": "846:10:16",
                 "typeDescriptions": {
-                  "typeIdentifier": "t_struct$_actionData_$4334_storage_ptr",
+                  "typeIdentifier": "t_struct$_actionData_$5267_storage_ptr",
                   "typeString": "struct iDataManager.actionData"
                 }
               }
@@ -2942,7 +2942,7 @@
           {
             "body": null,
             "documentation": "@dev Adds a new currency sumbol and smart contract address  \n@param _currencyAddress the currency smart contract address\n@param _currencySymbol the currency symbol\n@return success true/false denoting successful function call",
-            "id": 4349,
+            "id": 5282,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -2950,16 +2950,16 @@
             "name": "setCurrency",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4345,
+              "id": 5278,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4340,
+                  "id": 5273,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4349,
-                  "src": "1219:27:12",
+                  "scope": 5282,
+                  "src": "1219:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2967,10 +2967,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4339,
+                    "id": 5272,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1219:7:12",
+                    "src": "1219:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -2981,11 +2981,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4342,
+                  "id": 5275,
                   "name": "_currencyAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4349,
-                  "src": "1248:24:12",
+                  "scope": 5282,
+                  "src": "1248:24:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -2993,10 +2993,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4341,
+                    "id": 5274,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1248:7:12",
+                    "src": "1248:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -3007,11 +3007,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4344,
+                  "id": 5277,
                   "name": "_currencySymbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4349,
-                  "src": "1274:23:12",
+                  "scope": 5282,
+                  "src": "1274:23:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3019,10 +3019,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4343,
+                    "id": 5276,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1274:7:12",
+                    "src": "1274:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3032,20 +3032,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1218:80:12"
+              "src": "1218:80:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4348,
+              "id": 5281,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4347,
+                  "id": 5280,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4349,
-                  "src": "1315:12:12",
+                  "scope": 5282,
+                  "src": "1315:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3053,10 +3053,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4346,
+                    "id": 5279,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1315:4:12",
+                    "src": "1315:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -3066,10 +3066,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1314:14:12"
+              "src": "1314:14:16"
             },
-            "scope": 4464,
-            "src": "1198:131:12",
+            "scope": 5397,
+            "src": "1198:131:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -3077,7 +3077,7 @@
           {
             "body": null,
             "documentation": "@dev Updates a currency sumbol and smart contract address  \n@param _currencyAddress the currency smart contract address\n@param _currencySymbol the currency symbol\n@return success true/false denoting successful function call",
-            "id": 4360,
+            "id": 5293,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -3085,16 +3085,16 @@
             "name": "_setCurrency",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4356,
+              "id": 5289,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4351,
+                  "id": 5284,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4360,
-                  "src": "1622:27:12",
+                  "scope": 5293,
+                  "src": "1622:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3102,10 +3102,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4350,
+                    "id": 5283,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1622:7:12",
+                    "src": "1622:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3116,11 +3116,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4353,
+                  "id": 5286,
                   "name": "_currencyAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4360,
-                  "src": "1651:24:12",
+                  "scope": 5293,
+                  "src": "1651:24:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3128,10 +3128,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4352,
+                    "id": 5285,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1651:7:12",
+                    "src": "1651:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -3142,11 +3142,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4355,
+                  "id": 5288,
                   "name": "_currencySymbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4360,
-                  "src": "1677:23:12",
+                  "scope": 5293,
+                  "src": "1677:23:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3154,10 +3154,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4354,
+                    "id": 5287,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1677:7:12",
+                    "src": "1677:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3167,20 +3167,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1621:80:12"
+              "src": "1621:80:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4359,
+              "id": 5292,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4358,
+                  "id": 5291,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4360,
-                  "src": "1718:12:12",
+                  "scope": 5293,
+                  "src": "1718:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3188,10 +3188,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4357,
+                    "id": 5290,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "1718:4:12",
+                    "src": "1718:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -3201,10 +3201,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "1717:14:12"
+              "src": "1717:14:16"
             },
-            "scope": 4464,
-            "src": "1600:132:12",
+            "scope": 5397,
+            "src": "1600:132:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -3212,7 +3212,7 @@
           {
             "body": null,
             "documentation": "@dev set blockchain action data in struct \n@param _blockchainActionId the blockchain action id\n@param currency the token currency symbol\n@param accountId the clientId\n@param to the blockchain address or smart contract address used in the transaction\n@param amount the amount of tokens in the transaction\n@return success true/false denoting successful function call",
-            "id": 4377,
+            "id": 5310,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -3220,16 +3220,16 @@
             "name": "setBlockchainActionData",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4373,
+              "id": 5306,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4362,
+                  "id": 5295,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2211:27:12",
+                  "scope": 5310,
+                  "src": "2211:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3237,10 +3237,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4361,
+                    "id": 5294,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2211:7:12",
+                    "src": "2211:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3251,11 +3251,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4364,
+                  "id": 5297,
                   "name": "currency",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2240:16:12",
+                  "scope": 5310,
+                  "src": "2240:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3263,10 +3263,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4363,
+                    "id": 5296,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2240:7:12",
+                    "src": "2240:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3277,11 +3277,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4366,
+                  "id": 5299,
                   "name": "amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2267:11:12",
+                  "scope": 5310,
+                  "src": "2267:11:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3289,10 +3289,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4365,
+                    "id": 5298,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2267:4:12",
+                    "src": "2267:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3303,11 +3303,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4368,
+                  "id": 5301,
                   "name": "accountId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2280:17:12",
+                  "scope": 5310,
+                  "src": "2280:17:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3315,10 +3315,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4367,
+                    "id": 5300,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2280:7:12",
+                    "src": "2280:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3329,11 +3329,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4370,
+                  "id": 5303,
                   "name": "to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2299:10:12",
+                  "scope": 5310,
+                  "src": "2299:10:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3341,10 +3341,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4369,
+                    "id": 5302,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2299:7:12",
+                    "src": "2299:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -3355,11 +3355,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4372,
+                  "id": 5305,
                   "name": "pptFee",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2311:11:12",
+                  "scope": 5310,
+                  "src": "2311:11:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3367,10 +3367,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4371,
+                    "id": 5304,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2311:4:12",
+                    "src": "2311:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3380,20 +3380,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2201:122:12"
+              "src": "2201:122:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4376,
+              "id": 5309,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4375,
+                  "id": 5308,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4377,
-                  "src": "2358:12:12",
+                  "scope": 5310,
+                  "src": "2358:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3401,10 +3401,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4374,
+                    "id": 5307,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2358:4:12",
+                    "src": "2358:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -3414,10 +3414,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2357:14:12"
+              "src": "2357:14:16"
             },
-            "scope": 4464,
-            "src": "2169:203:12",
+            "scope": 5397,
+            "src": "2169:203:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -3425,7 +3425,7 @@
           {
             "body": null,
             "documentation": "@dev Updates a deposit address for client id\n@param _blockchainActionId the blockchain action id\n@param _clientId the client id\n@param _depositContract the deposit contract address for the client\n@return success true/false denoting successful function call",
-            "id": 4388,
+            "id": 5321,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -3433,16 +3433,16 @@
             "name": "_setDepositAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4384,
+              "id": 5317,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4379,
+                  "id": 5312,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4388,
-                  "src": "2716:27:12",
+                  "scope": 5321,
+                  "src": "2716:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3450,10 +3450,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4378,
+                    "id": 5311,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2716:7:12",
+                    "src": "2716:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3464,11 +3464,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4381,
+                  "id": 5314,
                   "name": "_clientId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4388,
-                  "src": "2745:17:12",
+                  "scope": 5321,
+                  "src": "2745:17:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3476,10 +3476,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4380,
+                    "id": 5313,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2745:7:12",
+                    "src": "2745:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3490,11 +3490,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4383,
+                  "id": 5316,
                   "name": "_depositContract",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4388,
-                  "src": "2764:24:12",
+                  "scope": 5321,
+                  "src": "2764:24:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3502,10 +3502,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4382,
+                    "id": 5315,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2764:7:12",
+                    "src": "2764:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -3515,20 +3515,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2715:74:12"
+              "src": "2715:74:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4387,
+              "id": 5320,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4386,
+                  "id": 5319,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4388,
-                  "src": "2806:12:12",
+                  "scope": 5321,
+                  "src": "2806:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3536,10 +3536,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4385,
+                    "id": 5318,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "2806:4:12",
+                    "src": "2806:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -3549,10 +3549,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "2805:14:12"
+              "src": "2805:14:16"
             },
-            "scope": 4464,
-            "src": "2688:132:12",
+            "scope": 5397,
+            "src": "2688:132:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -3560,7 +3560,7 @@
           {
             "body": null,
             "documentation": "@dev Adds a new deposit smart contract address linked to a client id\n@param _depositAddress the deposit smart contract address\n@param _clientId the client id\n@return success true/false denoting successful function call",
-            "id": 4399,
+            "id": 5332,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": false,
@@ -3568,16 +3568,16 @@
             "name": "setDepositAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4395,
+              "id": 5328,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4390,
+                  "id": 5323,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4399,
-                  "src": "3113:27:12",
+                  "scope": 5332,
+                  "src": "3113:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3585,10 +3585,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4389,
+                    "id": 5322,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3113:7:12",
+                    "src": "3113:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3599,11 +3599,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4392,
+                  "id": 5325,
                   "name": "_depositAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4399,
-                  "src": "3142:23:12",
+                  "scope": 5332,
+                  "src": "3142:23:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3611,10 +3611,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4391,
+                    "id": 5324,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3142:7:12",
+                    "src": "3142:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -3625,11 +3625,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4394,
+                  "id": 5327,
                   "name": "_clientId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4399,
-                  "src": "3167:17:12",
+                  "scope": 5332,
+                  "src": "3167:17:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3637,10 +3637,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4393,
+                    "id": 5326,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3167:7:12",
+                    "src": "3167:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3650,20 +3650,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3112:73:12"
+              "src": "3112:73:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4398,
+              "id": 5331,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4397,
+                  "id": 5330,
                   "name": "success",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4399,
-                  "src": "3202:12:12",
+                  "scope": 5332,
+                  "src": "3202:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3671,10 +3671,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4396,
+                    "id": 5329,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3202:4:12",
+                    "src": "3202:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -3684,10 +3684,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3201:14:12"
+              "src": "3201:14:16"
             },
-            "scope": 4464,
-            "src": "3086:130:12",
+            "scope": 5397,
+            "src": "3086:130:16",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -3695,7 +3695,7 @@
           {
             "body": null,
             "documentation": "@dev Gets a deposit address with the client id \n@return clientDepositAddress The client's deposit address",
-            "id": 4406,
+            "id": 5339,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -3703,16 +3703,16 @@
             "name": "getDepositAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4402,
+              "id": 5335,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4401,
+                  "id": 5334,
                   "name": "_clientId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4406,
-                  "src": "3405:17:12",
+                  "scope": 5339,
+                  "src": "3405:17:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3720,10 +3720,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4400,
+                    "id": 5333,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3405:7:12",
+                    "src": "3405:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3733,20 +3733,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3404:19:12"
+              "src": "3404:19:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4405,
+              "id": 5338,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4404,
+                  "id": 5337,
                   "name": "clientDepositAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4406,
-                  "src": "3445:28:12",
+                  "scope": 5339,
+                  "src": "3445:28:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3754,10 +3754,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4403,
+                    "id": 5336,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3445:7:12",
+                    "src": "3445:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -3767,10 +3767,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3444:30:12"
+              "src": "3444:30:16"
             },
-            "scope": 4464,
-            "src": "3378:97:12",
+            "scope": 5397,
+            "src": "3378:97:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -3778,7 +3778,7 @@
           {
             "body": null,
             "documentation": "@dev Gets a client id linked to a deposit address \n@return depositClientId The client id",
-            "id": 4413,
+            "id": 5346,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -3786,16 +3786,16 @@
             "name": "getClientIdWithDepositAddress",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4409,
+              "id": 5342,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4408,
+                  "id": 5341,
                   "name": "_depositContract",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4413,
-                  "src": "3635:24:12",
+                  "scope": 5346,
+                  "src": "3635:24:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3803,10 +3803,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4407,
+                    "id": 5340,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3635:7:12",
+                    "src": "3635:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -3816,20 +3816,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3634:26:12"
+              "src": "3634:26:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4412,
+              "id": 5345,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4411,
+                  "id": 5344,
                   "name": "depositClientId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4413,
-                  "src": "3682:23:12",
+                  "scope": 5346,
+                  "src": "3682:23:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3837,10 +3837,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4410,
+                    "id": 5343,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3682:7:12",
+                    "src": "3682:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3850,10 +3850,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3681:25:12"
+              "src": "3681:25:16"
             },
-            "scope": 4464,
-            "src": "3596:111:12",
+            "scope": 5397,
+            "src": "3596:111:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -3861,7 +3861,7 @@
           {
             "body": null,
             "documentation": "@dev Gets a currency smart contract address \n@return currencyAddress The currency address",
-            "id": 4420,
+            "id": 5353,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -3869,16 +3869,16 @@
             "name": "getCurrency",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4416,
+              "id": 5349,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4415,
+                  "id": 5348,
                   "name": "_currencySymbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4420,
-                  "src": "3850:23:12",
+                  "scope": 5353,
+                  "src": "3850:23:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3886,10 +3886,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4414,
+                    "id": 5347,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3850:7:12",
+                    "src": "3850:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -3899,20 +3899,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3849:25:12"
+              "src": "3849:25:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4419,
+              "id": 5352,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4418,
+                  "id": 5351,
                   "name": "currencyAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4420,
-                  "src": "3896:23:12",
+                  "scope": 5353,
+                  "src": "3896:23:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3920,10 +3920,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4417,
+                    "id": 5350,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "3896:7:12",
+                    "src": "3896:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -3933,10 +3933,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "3895:25:12"
+              "src": "3895:25:16"
             },
-            "scope": 4464,
-            "src": "3829:92:12",
+            "scope": 5397,
+            "src": "3829:92:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -3944,7 +3944,7 @@
           {
             "body": null,
             "documentation": "@dev Gets a currency symbol given it's smart contract address \n@return currencySymbol The currency symbol",
-            "id": 4427,
+            "id": 5360,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -3952,16 +3952,16 @@
             "name": "getCurrencySymbol",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4423,
+              "id": 5356,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4422,
+                  "id": 5355,
                   "name": "_currencyAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4427,
-                  "src": "4089:24:12",
+                  "scope": 5360,
+                  "src": "4089:24:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3969,10 +3969,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4421,
+                    "id": 5354,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4089:7:12",
+                    "src": "4089:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -3982,20 +3982,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "4088:26:12"
+              "src": "4088:26:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4426,
+              "id": 5359,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4425,
+                  "id": 5358,
                   "name": "currencySymbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4427,
-                  "src": "4136:22:12",
+                  "scope": 5360,
+                  "src": "4136:22:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4003,10 +4003,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4424,
+                    "id": 5357,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4136:7:12",
+                    "src": "4136:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -4016,10 +4016,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "4135:24:12"
+              "src": "4135:24:16"
             },
-            "scope": 4464,
-            "src": "4062:98:12",
+            "scope": 5397,
+            "src": "4062:98:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -4027,7 +4027,7 @@
           {
             "body": null,
             "documentation": "@dev Gets details of a currency given it's smart contract address \n@return _symbol The currency symbol\n@return _name The currency name\n@return _decimals The currency decimal places/precision",
-            "id": 4438,
+            "id": 5371,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -4035,16 +4035,16 @@
             "name": "getCurrencyDetails",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4430,
+              "id": 5363,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4429,
+                  "id": 5362,
                   "name": "_currencyAddress",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4438,
-                  "src": "4426:24:12",
+                  "scope": 5371,
+                  "src": "4426:24:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4052,10 +4052,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4428,
+                    "id": 5361,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4426:7:12",
+                    "src": "4426:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -4065,20 +4065,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "4425:26:12"
+              "src": "4425:26:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4437,
+              "id": 5370,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4432,
+                  "id": 5365,
                   "name": "_symbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4438,
-                  "src": "4473:15:12",
+                  "scope": 5371,
+                  "src": "4473:15:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4086,10 +4086,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4431,
+                    "id": 5364,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4473:7:12",
+                    "src": "4473:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -4100,11 +4100,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4434,
+                  "id": 5367,
                   "name": "_name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4438,
-                  "src": "4490:13:12",
+                  "scope": 5371,
+                  "src": "4490:13:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4112,10 +4112,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4433,
+                    "id": 5366,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4490:7:12",
+                    "src": "4490:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -4126,11 +4126,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4436,
+                  "id": 5369,
                   "name": "_decimals",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4438,
-                  "src": "4505:15:12",
+                  "scope": 5371,
+                  "src": "4505:15:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4138,10 +4138,10 @@
                     "typeString": "uint8"
                   },
                   "typeName": {
-                    "id": 4435,
+                    "id": 5368,
                     "name": "uint8",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4505:5:12",
+                    "src": "4505:5:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint8",
                       "typeString": "uint8"
@@ -4151,10 +4151,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "4472:49:12"
+              "src": "4472:49:16"
             },
-            "scope": 4464,
-            "src": "4398:124:12",
+            "scope": 5397,
+            "src": "4398:124:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -4162,7 +4162,7 @@
           {
             "body": null,
             "documentation": "@dev Get the blockchain action Id Data for a blockchain Action id\n@param _blockchainActionId the blockchain action id\n@return bytes32 currency\n@return uint amount\n@return bytes32 accountId\n@return address to",
-            "id": 4451,
+            "id": 5384,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -4170,16 +4170,16 @@
             "name": "getBlockchainActionIdData",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4441,
+              "id": 5374,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4440,
+                  "id": 5373,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4451,
-                  "src": "4828:27:12",
+                  "scope": 5384,
+                  "src": "4828:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4187,10 +4187,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4439,
+                    "id": 5372,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4828:7:12",
+                    "src": "4828:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -4200,20 +4200,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "4827:29:12"
+              "src": "4827:29:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4450,
+              "id": 5383,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4443,
+                  "id": 5376,
                   "name": "_currency",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4451,
-                  "src": "4878:17:12",
+                  "scope": 5384,
+                  "src": "4878:17:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4221,10 +4221,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4442,
+                    "id": 5375,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4878:7:12",
+                    "src": "4878:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -4235,11 +4235,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4445,
+                  "id": 5378,
                   "name": "_amount",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4451,
-                  "src": "4897:12:12",
+                  "scope": 5384,
+                  "src": "4897:12:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4247,10 +4247,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4444,
+                    "id": 5377,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4897:4:12",
+                    "src": "4897:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -4261,11 +4261,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4447,
+                  "id": 5380,
                   "name": "_accountId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4451,
-                  "src": "4911:18:12",
+                  "scope": 5384,
+                  "src": "4911:18:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4273,10 +4273,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4446,
+                    "id": 5379,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4911:7:12",
+                    "src": "4911:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -4287,11 +4287,11 @@
                 },
                 {
                   "constant": false,
-                  "id": 4449,
+                  "id": 5382,
                   "name": "_to",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4451,
-                  "src": "4931:11:12",
+                  "scope": 5384,
+                  "src": "4931:11:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4299,10 +4299,10 @@
                     "typeString": "address"
                   },
                   "typeName": {
-                    "id": 4448,
+                    "id": 5381,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "4931:7:12",
+                    "src": "4931:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -4312,10 +4312,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "4877:66:12"
+              "src": "4877:66:16"
             },
-            "scope": 4464,
-            "src": "4793:151:12",
+            "scope": 5397,
+            "src": "4793:151:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -4323,7 +4323,7 @@
           {
             "body": null,
             "documentation": "@dev Get the bool status of a blockchain Action id\n@param _blockchainActionId the blockchain action id\n@return bool actionStatus",
-            "id": 4458,
+            "id": 5391,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -4331,16 +4331,16 @@
             "name": "getActionStatus",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4454,
+              "id": 5387,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4453,
+                  "id": 5386,
                   "name": "_blockchainActionId",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4458,
-                  "src": "5138:27:12",
+                  "scope": 5391,
+                  "src": "5138:27:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4348,10 +4348,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 4452,
+                    "id": 5385,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5138:7:12",
+                    "src": "5138:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -4361,20 +4361,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "5137:29:12"
+              "src": "5137:29:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4457,
+              "id": 5390,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4456,
+                  "id": 5389,
                   "name": "_blockchainActionStatus",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4458,
-                  "src": "5188:28:12",
+                  "scope": 5391,
+                  "src": "5188:28:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4382,10 +4382,10 @@
                     "typeString": "bool"
                   },
                   "typeName": {
-                    "id": 4455,
+                    "id": 5388,
                     "name": "bool",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5188:4:12",
+                    "src": "5188:4:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -4395,10 +4395,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "5187:30:12"
+              "src": "5187:30:16"
             },
-            "scope": 4464,
-            "src": "5113:105:12",
+            "scope": 5397,
+            "src": "5113:105:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
@@ -4406,7 +4406,7 @@
           {
             "body": null,
             "documentation": "@dev Gets the version number for the current contract instance\n@return _version The version number",
-            "id": 4463,
+            "id": 5396,
             "implemented": false,
             "isConstructor": false,
             "isDeclaredConst": true,
@@ -4414,23 +4414,23 @@
             "name": "getVersion",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4459,
+              "id": 5392,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "5367:2:12"
+              "src": "5367:2:16"
             },
             "payable": false,
             "returnParameters": {
-              "id": 4462,
+              "id": 5395,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 4461,
+                  "id": 5394,
                   "name": "_version",
                   "nodeType": "VariableDeclaration",
-                  "scope": 4463,
-                  "src": "5391:16:12",
+                  "scope": 5396,
+                  "src": "5391:16:16",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -4438,10 +4438,10 @@
                     "typeString": "uint256"
                   },
                   "typeName": {
-                    "id": 4460,
+                    "id": 5393,
                     "name": "uint256",
                     "nodeType": "ElementaryTypeName",
-                    "src": "5391:7:12",
+                    "src": "5391:7:16",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -4451,20 +4451,20 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "5390:18:12"
+              "src": "5390:18:16"
             },
-            "scope": 4464,
-            "src": "5348:61:12",
+            "scope": 5397,
+            "src": "5348:61:16",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 4465,
-        "src": "59:5353:12"
+        "scope": 5398,
+        "src": "59:5353:16"
       }
     ],
-    "src": "0:5412:12"
+    "src": "0:5412:16"
   },
   "compiler": {
     "name": "solc",
@@ -4472,5 +4472,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.2",
-  "updatedAt": "2019-03-26T14:12:24.870Z"
+  "updatedAt": "2019-03-26T14:16:00.690Z"
 }

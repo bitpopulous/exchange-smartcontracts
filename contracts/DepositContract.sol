@@ -14,7 +14,7 @@ contract DepositContract is withAccessManager {
 
     // EVENTS
     event EtherTransfer(address to, uint256 value);
-    event EtherTransferToServer(address to, bytes32 clientId, uint256 value);
+    //event EtherTransferToServer(address to, bytes32 clientId, uint256 value);
     // NON-CONSTANT METHODS 
 
     /** @dev Constructor that sets the _clientID when the contract is deployed.
