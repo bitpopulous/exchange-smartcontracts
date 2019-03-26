@@ -536,7 +536,7 @@
         "id": 654,
         "nodeType": "ImportDirective",
         "scope": 1134,
-        "sourceUnit": 4667,
+        "sourceUnit": 4538,
         "src": "27:27:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -558,7 +558,7 @@
         "id": 656,
         "nodeType": "ImportDirective",
         "scope": 1134,
-        "sourceUnit": 4749,
+        "sourceUnit": 4620,
         "src": "85:33:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -569,7 +569,7 @@
         "id": 657,
         "nodeType": "ImportDirective",
         "scope": 1134,
-        "sourceUnit": 4594,
+        "sourceUnit": 4465,
         "src": "119:28:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -583,10 +583,10 @@
               "id": 658,
               "name": "iDataManager",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4593,
+              "referencedDeclaration": 4464,
               "src": "205:12:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iDataManager_$4593",
+                "typeIdentifier": "t_contract$_iDataManager_$4464",
                 "typeString": "contract iDataManager"
               }
             },
@@ -601,10 +601,10 @@
               "id": 660,
               "name": "withAccessManager",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4748,
+              "referencedDeclaration": 4619,
               "src": "219:17:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_withAccessManager_$4748",
+                "typeIdentifier": "t_contract$_withAccessManager_$4619",
                 "typeString": "contract withAccessManager"
               }
             },
@@ -614,8 +614,8 @@
           }
         ],
         "contractDependencies": [
-          4593,
-          4748
+          4464,
+          4619
         ],
         "contractKind": "contract",
         "documentation": "@title DataManager contract",
@@ -623,8 +623,8 @@
         "id": 1133,
         "linearizedBaseContracts": [
           1133,
-          4748,
-          4593
+          4619,
+          4464
         ],
         "name": "DataManager",
         "nodeType": "ContractDefinition",
@@ -649,7 +649,7 @@
                       "name": "version",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4432,
+                      "referencedDeclaration": 4303,
                       "src": "537:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -712,10 +712,10 @@
                   "name": "withAccessManager",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 4748,
+                  "referencedDeclaration": 4619,
                   "src": "493:17:3",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_withAccessManager_$4748_$",
+                    "typeIdentifier": "t_type$_t_contract$_withAccessManager_$4619_$",
                     "typeString": "type(contract withAccessManager)"
                   }
                 },
@@ -826,7 +826,7 @@
                             "name": "actionStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4452,
+                            "referencedDeclaration": 4323,
                             "src": "1008:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -896,10 +896,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "1000:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -958,7 +958,7 @@
                               "name": "currencySymbols",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4440,
+                              "referencedDeclaration": 4311,
                               "src": "1069:15:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -1037,7 +1037,7 @@
                               "name": "currencyAddresses",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4436,
+                              "referencedDeclaration": 4307,
                               "src": "1113:17:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -1113,10 +1113,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "1061:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1157,7 +1157,7 @@
                         "name": "currencySymbols",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4440,
+                        "referencedDeclaration": 4311,
                         "src": "1165:15:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -1230,7 +1230,7 @@
                         "name": "currencyAddresses",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4436,
+                        "referencedDeclaration": 4307,
                         "src": "1226:17:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -1321,7 +1321,7 @@
                               "name": "currencyAddresses",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4436,
+                              "referencedDeclaration": 4307,
                               "src": "1296:17:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -1400,7 +1400,7 @@
                               "name": "currencySymbols",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4440,
+                              "referencedDeclaration": 4311,
                               "src": "1341:15:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -1476,7 +1476,7 @@
                       "name": "assert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4752,
+                      "referencedDeclaration": 4623,
                       "src": "1289:6:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_assert_pure$_t_bool_$returns$__$",
@@ -1542,7 +1542,7 @@
                   "name": "onlyServerOrOnlyPopulous",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 4707,
+                  "referencedDeclaration": 4578,
                   "src": "942:24:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -1677,7 +1677,7 @@
             "scope": 1133,
             "src": "834:576:3",
             "stateMutability": "nonpayable",
-            "superFunction": 4478,
+            "superFunction": 4349,
             "visibility": "public"
           },
           {
@@ -1709,7 +1709,7 @@
                             "name": "actionStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4452,
+                            "referencedDeclaration": 4323,
                             "src": "1856:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -1779,10 +1779,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "1848:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -1823,7 +1823,7 @@
                         "name": "currencySymbols",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4440,
+                        "referencedDeclaration": 4311,
                         "src": "1909:15:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -1896,7 +1896,7 @@
                         "name": "currencyAddresses",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4436,
+                        "referencedDeclaration": 4307,
                         "src": "1970:17:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -1987,7 +1987,7 @@
                               "name": "currencyAddresses",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4436,
+                              "referencedDeclaration": 4307,
                               "src": "2040:17:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -2066,7 +2066,7 @@
                               "name": "currencySymbols",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4440,
+                              "referencedDeclaration": 4311,
                               "src": "2085:15:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -2142,7 +2142,7 @@
                       "name": "assert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4752,
+                      "referencedDeclaration": 4623,
                       "src": "2033:6:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_assert_pure$_t_bool_$returns$__$",
@@ -2364,7 +2364,7 @@
                   "name": "onlyServerOrOnlyPopulous",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 4707,
+                  "referencedDeclaration": 4578,
                   "src": "1790:24:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -2499,7 +2499,7 @@
             "scope": 1133,
             "src": "1681:573:3",
             "stateMutability": "nonpayable",
-            "superFunction": 4489,
+            "superFunction": 4360,
             "visibility": "public"
           },
           {
@@ -2531,7 +2531,7 @@
                             "name": "actionStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4452,
+                            "referencedDeclaration": 4323,
                             "src": "2948:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -2601,10 +2601,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "2940:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2647,10 +2647,10 @@
                           "name": "blockchainActionIdData",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4467,
+                          "referencedDeclaration": 4338,
                           "src": "3001:22:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                             "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                           }
                         },
@@ -2675,7 +2675,7 @@
                         "nodeType": "IndexAccess",
                         "src": "3001:43:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                          "typeIdentifier": "t_struct$_actionData_$4334_storage",
                           "typeString": "struct iDataManager.actionData storage ref"
                         }
                       },
@@ -2686,7 +2686,7 @@
                       "lValueRequested": true,
                       "memberName": "currency",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4454,
+                      "referencedDeclaration": 4325,
                       "src": "3001:52:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
@@ -2736,10 +2736,10 @@
                           "name": "blockchainActionIdData",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4467,
+                          "referencedDeclaration": 4338,
                           "src": "3074:22:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                             "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                           }
                         },
@@ -2764,7 +2764,7 @@
                         "nodeType": "IndexAccess",
                         "src": "3074:43:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                          "typeIdentifier": "t_struct$_actionData_$4334_storage",
                           "typeString": "struct iDataManager.actionData storage ref"
                         }
                       },
@@ -2775,7 +2775,7 @@
                       "lValueRequested": true,
                       "memberName": "amount",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4456,
+                      "referencedDeclaration": 4327,
                       "src": "3074:50:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -2825,10 +2825,10 @@
                           "name": "blockchainActionIdData",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4467,
+                          "referencedDeclaration": 4338,
                           "src": "3143:22:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                             "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                           }
                         },
@@ -2853,7 +2853,7 @@
                         "nodeType": "IndexAccess",
                         "src": "3143:43:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                          "typeIdentifier": "t_struct$_actionData_$4334_storage",
                           "typeString": "struct iDataManager.actionData storage ref"
                         }
                       },
@@ -2864,7 +2864,7 @@
                       "lValueRequested": true,
                       "memberName": "accountId",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4458,
+                      "referencedDeclaration": 4329,
                       "src": "3143:53:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
@@ -2914,10 +2914,10 @@
                           "name": "blockchainActionIdData",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4467,
+                          "referencedDeclaration": 4338,
                           "src": "3218:22:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                             "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                           }
                         },
@@ -2942,7 +2942,7 @@
                         "nodeType": "IndexAccess",
                         "src": "3218:43:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                          "typeIdentifier": "t_struct$_actionData_$4334_storage",
                           "typeString": "struct iDataManager.actionData storage ref"
                         }
                       },
@@ -2953,7 +2953,7 @@
                       "lValueRequested": true,
                       "memberName": "to",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4460,
+                      "referencedDeclaration": 4331,
                       "src": "3218:46:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -3003,10 +3003,10 @@
                           "name": "blockchainActionIdData",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4467,
+                          "referencedDeclaration": 4338,
                           "src": "3279:22:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                             "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                           }
                         },
@@ -3031,7 +3031,7 @@
                         "nodeType": "IndexAccess",
                         "src": "3279:43:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                          "typeIdentifier": "t_struct$_actionData_$4334_storage",
                           "typeString": "struct iDataManager.actionData storage ref"
                         }
                       },
@@ -3042,7 +3042,7 @@
                       "lValueRequested": true,
                       "memberName": "pptFee",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4462,
+                      "referencedDeclaration": 4333,
                       "src": "3279:50:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -3090,7 +3090,7 @@
                         "name": "actionStatus",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4452,
+                        "referencedDeclaration": 4323,
                         "src": "3348:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -3193,7 +3193,7 @@
                   "name": "onlyServerOrOnlyPopulous",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 4707,
+                  "referencedDeclaration": 4578,
                   "src": "2869:24:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -3406,7 +3406,7 @@
             "scope": 1133,
             "src": "2690:726:3",
             "stateMutability": "nonpayable",
-            "superFunction": 4506,
+            "superFunction": 4377,
             "visibility": "public"
           },
           {
@@ -3438,7 +3438,7 @@
                             "name": "actionStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4452,
+                            "referencedDeclaration": 4323,
                             "src": "3923:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -3508,10 +3508,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "3915:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -3552,7 +3552,7 @@
                         "name": "depositAddresses",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4444,
+                        "referencedDeclaration": 4315,
                         "src": "3976:16:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -3625,7 +3625,7 @@
                         "name": "depositClientIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4448,
+                        "referencedDeclaration": 4319,
                         "src": "4032:16:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -3716,7 +3716,7 @@
                               "name": "depositAddresses",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4444,
+                              "referencedDeclaration": 4315,
                               "src": "4163:16:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -3790,7 +3790,7 @@
                               "name": "depositClientIds",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4448,
+                              "referencedDeclaration": 4319,
                               "src": "4214:16:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -3861,7 +3861,7 @@
                       "name": "assert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4752,
+                      "referencedDeclaration": 4623,
                       "src": "4156:6:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_assert_pure$_t_bool_$returns$__$",
@@ -3960,7 +3960,7 @@
                           "name": "depositAddresses",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4444,
+                          "referencedDeclaration": 4315,
                           "src": "4374:16:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -4110,7 +4110,7 @@
                   "name": "onlyServerOrOnlyPopulous",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 4707,
+                  "referencedDeclaration": 4578,
                   "src": "3847:24:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -4245,7 +4245,7 @@
             "scope": 1133,
             "src": "3732:701:3",
             "stateMutability": "nonpayable",
-            "superFunction": 4517,
+            "superFunction": 4388,
             "visibility": "public"
           },
           {
@@ -4277,7 +4277,7 @@
                             "name": "actionStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4452,
+                            "referencedDeclaration": 4323,
                             "src": "4872:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -4347,10 +4347,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "4864:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -4409,7 +4409,7 @@
                               "name": "depositAddresses",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4444,
+                              "referencedDeclaration": 4315,
                               "src": "4933:16:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -4488,7 +4488,7 @@
                               "name": "depositClientIds",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4448,
+                              "referencedDeclaration": 4319,
                               "src": "4971:16:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -4564,10 +4564,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "4925:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -4608,7 +4608,7 @@
                         "name": "depositAddresses",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4444,
+                        "referencedDeclaration": 4315,
                         "src": "5022:16:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -4681,7 +4681,7 @@
                         "name": "depositClientIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4448,
+                        "referencedDeclaration": 4319,
                         "src": "5077:16:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -4772,7 +4772,7 @@
                               "name": "depositAddresses",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4444,
+                              "referencedDeclaration": 4315,
                               "src": "5139:16:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -4851,7 +4851,7 @@
                               "name": "depositClientIds",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4448,
+                              "referencedDeclaration": 4319,
                               "src": "5177:16:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -4927,7 +4927,7 @@
                       "name": "assert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4752,
+                      "referencedDeclaration": 4623,
                       "src": "5132:6:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_assert_pure$_t_bool_$returns$__$",
@@ -4993,7 +4993,7 @@
                   "name": "onlyServerOrOnlyPopulous",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 4707,
+                  "referencedDeclaration": 4578,
                   "src": "4806:24:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -5128,7 +5128,7 @@
             "scope": 1133,
             "src": "4699:547:3",
             "stateMutability": "nonpayable",
-            "superFunction": 4528,
+            "superFunction": 4399,
             "visibility": "public"
           },
           {
@@ -5146,7 +5146,7 @@
                       "name": "depositAddresses",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4444,
+                      "referencedDeclaration": 4315,
                       "src": "5526:16:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -5263,7 +5263,7 @@
             "scope": 1133,
             "src": "5413:147:3",
             "stateMutability": "view",
-            "superFunction": 4535,
+            "superFunction": 4406,
             "visibility": "public"
           },
           {
@@ -5281,7 +5281,7 @@
                       "name": "depositClientIds",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4448,
+                      "referencedDeclaration": 4319,
                       "src": "5807:16:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -5398,7 +5398,7 @@
             "scope": 1133,
             "src": "5680:168:3",
             "stateMutability": "view",
-            "superFunction": 4542,
+            "superFunction": 4413,
             "visibility": "public"
           },
           {
@@ -5416,7 +5416,7 @@
                       "name": "currencyAddresses",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4436,
+                      "referencedDeclaration": 4307,
                       "src": "6078:17:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -5533,7 +5533,7 @@
             "scope": 1133,
             "src": "5969:150:3",
             "stateMutability": "view",
-            "superFunction": 4549,
+            "superFunction": 4420,
             "visibility": "public"
           },
           {
@@ -5551,7 +5551,7 @@
                       "name": "currencySymbols",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4440,
+                      "referencedDeclaration": 4311,
                       "src": "6374:15:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -5668,7 +5668,7 @@
             "scope": 1133,
             "src": "6259:155:3",
             "stateMutability": "view",
-            "superFunction": 4556,
+            "superFunction": 4427,
             "visibility": "public"
           },
           {
@@ -6078,7 +6078,7 @@
             "scope": 1133,
             "src": "6652:274:3",
             "stateMutability": "view",
-            "superFunction": 4567,
+            "superFunction": 4438,
             "visibility": "public"
           },
           {
@@ -6110,7 +6110,7 @@
                             "name": "actionStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4452,
+                            "referencedDeclaration": 4323,
                             "src": "7377:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -6180,10 +6180,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "7369:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -6222,10 +6222,10 @@
                             "name": "blockchainActionIdData",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4467,
+                            "referencedDeclaration": 4338,
                             "src": "7437:22:3",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                               "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                             }
                           },
@@ -6250,7 +6250,7 @@
                           "nodeType": "IndexAccess",
                           "src": "7437:43:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                            "typeIdentifier": "t_struct$_actionData_$4334_storage",
                             "typeString": "struct iDataManager.actionData storage ref"
                           }
                         },
@@ -6261,7 +6261,7 @@
                         "lValueRequested": false,
                         "memberName": "currency",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4454,
+                        "referencedDeclaration": 4325,
                         "src": "7437:52:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -6278,10 +6278,10 @@
                             "name": "blockchainActionIdData",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4467,
+                            "referencedDeclaration": 4338,
                             "src": "7500:22:3",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                               "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                             }
                           },
@@ -6306,7 +6306,7 @@
                           "nodeType": "IndexAccess",
                           "src": "7500:43:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                            "typeIdentifier": "t_struct$_actionData_$4334_storage",
                             "typeString": "struct iDataManager.actionData storage ref"
                           }
                         },
@@ -6317,7 +6317,7 @@
                         "lValueRequested": false,
                         "memberName": "amount",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4456,
+                        "referencedDeclaration": 4327,
                         "src": "7500:50:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -6334,10 +6334,10 @@
                             "name": "blockchainActionIdData",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4467,
+                            "referencedDeclaration": 4338,
                             "src": "7560:22:3",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                               "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                             }
                           },
@@ -6362,7 +6362,7 @@
                           "nodeType": "IndexAccess",
                           "src": "7560:43:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                            "typeIdentifier": "t_struct$_actionData_$4334_storage",
                             "typeString": "struct iDataManager.actionData storage ref"
                           }
                         },
@@ -6373,7 +6373,7 @@
                         "lValueRequested": false,
                         "memberName": "accountId",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4458,
+                        "referencedDeclaration": 4329,
                         "src": "7560:53:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -6390,10 +6390,10 @@
                             "name": "blockchainActionIdData",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4467,
+                            "referencedDeclaration": 4338,
                             "src": "7623:22:3",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                               "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                             }
                           },
@@ -6418,7 +6418,7 @@
                           "nodeType": "IndexAccess",
                           "src": "7623:43:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                            "typeIdentifier": "t_struct$_actionData_$4334_storage",
                             "typeString": "struct iDataManager.actionData storage ref"
                           }
                         },
@@ -6429,7 +6429,7 @@
                         "lValueRequested": false,
                         "memberName": "to",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4460,
+                        "referencedDeclaration": 4331,
                         "src": "7623:46:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -6613,7 +6613,7 @@
             "scope": 1133,
             "src": "7198:479:3",
             "stateMutability": "view",
-            "superFunction": 4580,
+            "superFunction": 4451,
             "visibility": "public"
           },
           {
@@ -6631,7 +6631,7 @@
                       "name": "actionStatus",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4452,
+                      "referencedDeclaration": 4323,
                       "src": "7967:12:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -6748,7 +6748,7 @@
             "scope": 1133,
             "src": "7845:162:3",
             "stateMutability": "view",
-            "superFunction": 4587,
+            "superFunction": 4458,
             "visibility": "public"
           },
           {
@@ -6764,7 +6764,7 @@
                     "name": "version",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 4432,
+                    "referencedDeclaration": 4303,
                     "src": "8215:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -6829,7 +6829,7 @@
             "scope": 1133,
             "src": "8137:92:3",
             "stateMutability": "view",
-            "superFunction": 4592,
+            "superFunction": 4463,
             "visibility": "public"
           }
         ],
@@ -6866,7 +6866,7 @@
         "id": 654,
         "nodeType": "ImportDirective",
         "scope": 1134,
-        "sourceUnit": 4667,
+        "sourceUnit": 4538,
         "src": "27:27:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -6888,7 +6888,7 @@
         "id": 656,
         "nodeType": "ImportDirective",
         "scope": 1134,
-        "sourceUnit": 4749,
+        "sourceUnit": 4620,
         "src": "85:33:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -6899,7 +6899,7 @@
         "id": 657,
         "nodeType": "ImportDirective",
         "scope": 1134,
-        "sourceUnit": 4594,
+        "sourceUnit": 4465,
         "src": "119:28:3",
         "symbolAliases": [],
         "unitAlias": ""
@@ -6913,10 +6913,10 @@
               "id": 658,
               "name": "iDataManager",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4593,
+              "referencedDeclaration": 4464,
               "src": "205:12:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_iDataManager_$4593",
+                "typeIdentifier": "t_contract$_iDataManager_$4464",
                 "typeString": "contract iDataManager"
               }
             },
@@ -6931,10 +6931,10 @@
               "id": 660,
               "name": "withAccessManager",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 4748,
+              "referencedDeclaration": 4619,
               "src": "219:17:3",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_withAccessManager_$4748",
+                "typeIdentifier": "t_contract$_withAccessManager_$4619",
                 "typeString": "contract withAccessManager"
               }
             },
@@ -6944,8 +6944,8 @@
           }
         ],
         "contractDependencies": [
-          4593,
-          4748
+          4464,
+          4619
         ],
         "contractKind": "contract",
         "documentation": "@title DataManager contract",
@@ -6953,8 +6953,8 @@
         "id": 1133,
         "linearizedBaseContracts": [
           1133,
-          4748,
-          4593
+          4619,
+          4464
         ],
         "name": "DataManager",
         "nodeType": "ContractDefinition",
@@ -6979,7 +6979,7 @@
                       "name": "version",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4432,
+                      "referencedDeclaration": 4303,
                       "src": "537:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -7042,10 +7042,10 @@
                   "name": "withAccessManager",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 4748,
+                  "referencedDeclaration": 4619,
                   "src": "493:17:3",
                   "typeDescriptions": {
-                    "typeIdentifier": "t_type$_t_contract$_withAccessManager_$4748_$",
+                    "typeIdentifier": "t_type$_t_contract$_withAccessManager_$4619_$",
                     "typeString": "type(contract withAccessManager)"
                   }
                 },
@@ -7156,7 +7156,7 @@
                             "name": "actionStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4452,
+                            "referencedDeclaration": 4323,
                             "src": "1008:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -7226,10 +7226,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "1000:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -7288,7 +7288,7 @@
                               "name": "currencySymbols",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4440,
+                              "referencedDeclaration": 4311,
                               "src": "1069:15:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -7367,7 +7367,7 @@
                               "name": "currencyAddresses",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4436,
+                              "referencedDeclaration": 4307,
                               "src": "1113:17:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -7443,10 +7443,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "1061:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -7487,7 +7487,7 @@
                         "name": "currencySymbols",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4440,
+                        "referencedDeclaration": 4311,
                         "src": "1165:15:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -7560,7 +7560,7 @@
                         "name": "currencyAddresses",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4436,
+                        "referencedDeclaration": 4307,
                         "src": "1226:17:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -7651,7 +7651,7 @@
                               "name": "currencyAddresses",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4436,
+                              "referencedDeclaration": 4307,
                               "src": "1296:17:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -7730,7 +7730,7 @@
                               "name": "currencySymbols",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4440,
+                              "referencedDeclaration": 4311,
                               "src": "1341:15:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -7806,7 +7806,7 @@
                       "name": "assert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4752,
+                      "referencedDeclaration": 4623,
                       "src": "1289:6:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_assert_pure$_t_bool_$returns$__$",
@@ -7872,7 +7872,7 @@
                   "name": "onlyServerOrOnlyPopulous",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 4707,
+                  "referencedDeclaration": 4578,
                   "src": "942:24:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -8007,7 +8007,7 @@
             "scope": 1133,
             "src": "834:576:3",
             "stateMutability": "nonpayable",
-            "superFunction": 4478,
+            "superFunction": 4349,
             "visibility": "public"
           },
           {
@@ -8039,7 +8039,7 @@
                             "name": "actionStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4452,
+                            "referencedDeclaration": 4323,
                             "src": "1856:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -8109,10 +8109,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "1848:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -8153,7 +8153,7 @@
                         "name": "currencySymbols",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4440,
+                        "referencedDeclaration": 4311,
                         "src": "1909:15:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -8226,7 +8226,7 @@
                         "name": "currencyAddresses",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4436,
+                        "referencedDeclaration": 4307,
                         "src": "1970:17:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -8317,7 +8317,7 @@
                               "name": "currencyAddresses",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4436,
+                              "referencedDeclaration": 4307,
                               "src": "2040:17:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -8396,7 +8396,7 @@
                               "name": "currencySymbols",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4440,
+                              "referencedDeclaration": 4311,
                               "src": "2085:15:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -8472,7 +8472,7 @@
                       "name": "assert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4752,
+                      "referencedDeclaration": 4623,
                       "src": "2033:6:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_assert_pure$_t_bool_$returns$__$",
@@ -8694,7 +8694,7 @@
                   "name": "onlyServerOrOnlyPopulous",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 4707,
+                  "referencedDeclaration": 4578,
                   "src": "1790:24:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -8829,7 +8829,7 @@
             "scope": 1133,
             "src": "1681:573:3",
             "stateMutability": "nonpayable",
-            "superFunction": 4489,
+            "superFunction": 4360,
             "visibility": "public"
           },
           {
@@ -8861,7 +8861,7 @@
                             "name": "actionStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4452,
+                            "referencedDeclaration": 4323,
                             "src": "2948:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -8931,10 +8931,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "2940:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -8977,10 +8977,10 @@
                           "name": "blockchainActionIdData",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4467,
+                          "referencedDeclaration": 4338,
                           "src": "3001:22:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                             "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                           }
                         },
@@ -9005,7 +9005,7 @@
                         "nodeType": "IndexAccess",
                         "src": "3001:43:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                          "typeIdentifier": "t_struct$_actionData_$4334_storage",
                           "typeString": "struct iDataManager.actionData storage ref"
                         }
                       },
@@ -9016,7 +9016,7 @@
                       "lValueRequested": true,
                       "memberName": "currency",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4454,
+                      "referencedDeclaration": 4325,
                       "src": "3001:52:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
@@ -9066,10 +9066,10 @@
                           "name": "blockchainActionIdData",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4467,
+                          "referencedDeclaration": 4338,
                           "src": "3074:22:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                             "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                           }
                         },
@@ -9094,7 +9094,7 @@
                         "nodeType": "IndexAccess",
                         "src": "3074:43:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                          "typeIdentifier": "t_struct$_actionData_$4334_storage",
                           "typeString": "struct iDataManager.actionData storage ref"
                         }
                       },
@@ -9105,7 +9105,7 @@
                       "lValueRequested": true,
                       "memberName": "amount",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4456,
+                      "referencedDeclaration": 4327,
                       "src": "3074:50:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -9155,10 +9155,10 @@
                           "name": "blockchainActionIdData",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4467,
+                          "referencedDeclaration": 4338,
                           "src": "3143:22:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                             "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                           }
                         },
@@ -9183,7 +9183,7 @@
                         "nodeType": "IndexAccess",
                         "src": "3143:43:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                          "typeIdentifier": "t_struct$_actionData_$4334_storage",
                           "typeString": "struct iDataManager.actionData storage ref"
                         }
                       },
@@ -9194,7 +9194,7 @@
                       "lValueRequested": true,
                       "memberName": "accountId",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4458,
+                      "referencedDeclaration": 4329,
                       "src": "3143:53:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_bytes32",
@@ -9244,10 +9244,10 @@
                           "name": "blockchainActionIdData",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4467,
+                          "referencedDeclaration": 4338,
                           "src": "3218:22:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                             "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                           }
                         },
@@ -9272,7 +9272,7 @@
                         "nodeType": "IndexAccess",
                         "src": "3218:43:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                          "typeIdentifier": "t_struct$_actionData_$4334_storage",
                           "typeString": "struct iDataManager.actionData storage ref"
                         }
                       },
@@ -9283,7 +9283,7 @@
                       "lValueRequested": true,
                       "memberName": "to",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4460,
+                      "referencedDeclaration": 4331,
                       "src": "3218:46:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_address",
@@ -9333,10 +9333,10 @@
                           "name": "blockchainActionIdData",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4467,
+                          "referencedDeclaration": 4338,
                           "src": "3279:22:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                            "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                             "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                           }
                         },
@@ -9361,7 +9361,7 @@
                         "nodeType": "IndexAccess",
                         "src": "3279:43:3",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                          "typeIdentifier": "t_struct$_actionData_$4334_storage",
                           "typeString": "struct iDataManager.actionData storage ref"
                         }
                       },
@@ -9372,7 +9372,7 @@
                       "lValueRequested": true,
                       "memberName": "pptFee",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 4462,
+                      "referencedDeclaration": 4333,
                       "src": "3279:50:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
@@ -9420,7 +9420,7 @@
                         "name": "actionStatus",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4452,
+                        "referencedDeclaration": 4323,
                         "src": "3348:12:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -9523,7 +9523,7 @@
                   "name": "onlyServerOrOnlyPopulous",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 4707,
+                  "referencedDeclaration": 4578,
                   "src": "2869:24:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -9736,7 +9736,7 @@
             "scope": 1133,
             "src": "2690:726:3",
             "stateMutability": "nonpayable",
-            "superFunction": 4506,
+            "superFunction": 4377,
             "visibility": "public"
           },
           {
@@ -9768,7 +9768,7 @@
                             "name": "actionStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4452,
+                            "referencedDeclaration": 4323,
                             "src": "3923:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -9838,10 +9838,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "3915:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -9882,7 +9882,7 @@
                         "name": "depositAddresses",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4444,
+                        "referencedDeclaration": 4315,
                         "src": "3976:16:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -9955,7 +9955,7 @@
                         "name": "depositClientIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4448,
+                        "referencedDeclaration": 4319,
                         "src": "4032:16:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -10046,7 +10046,7 @@
                               "name": "depositAddresses",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4444,
+                              "referencedDeclaration": 4315,
                               "src": "4163:16:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -10120,7 +10120,7 @@
                               "name": "depositClientIds",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4448,
+                              "referencedDeclaration": 4319,
                               "src": "4214:16:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -10191,7 +10191,7 @@
                       "name": "assert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4752,
+                      "referencedDeclaration": 4623,
                       "src": "4156:6:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_assert_pure$_t_bool_$returns$__$",
@@ -10290,7 +10290,7 @@
                           "name": "depositAddresses",
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
-                          "referencedDeclaration": 4444,
+                          "referencedDeclaration": 4315,
                           "src": "4374:16:3",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -10440,7 +10440,7 @@
                   "name": "onlyServerOrOnlyPopulous",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 4707,
+                  "referencedDeclaration": 4578,
                   "src": "3847:24:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -10575,7 +10575,7 @@
             "scope": 1133,
             "src": "3732:701:3",
             "stateMutability": "nonpayable",
-            "superFunction": 4517,
+            "superFunction": 4388,
             "visibility": "public"
           },
           {
@@ -10607,7 +10607,7 @@
                             "name": "actionStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4452,
+                            "referencedDeclaration": 4323,
                             "src": "4872:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -10677,10 +10677,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "4864:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -10739,7 +10739,7 @@
                               "name": "depositAddresses",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4444,
+                              "referencedDeclaration": 4315,
                               "src": "4933:16:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -10818,7 +10818,7 @@
                               "name": "depositClientIds",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4448,
+                              "referencedDeclaration": 4319,
                               "src": "4971:16:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -10894,10 +10894,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "4925:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -10938,7 +10938,7 @@
                         "name": "depositAddresses",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4444,
+                        "referencedDeclaration": 4315,
                         "src": "5022:16:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -11011,7 +11011,7 @@
                         "name": "depositClientIds",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 4448,
+                        "referencedDeclaration": 4319,
                         "src": "5077:16:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -11102,7 +11102,7 @@
                               "name": "depositAddresses",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4444,
+                              "referencedDeclaration": 4315,
                               "src": "5139:16:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -11181,7 +11181,7 @@
                               "name": "depositClientIds",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 4448,
+                              "referencedDeclaration": 4319,
                               "src": "5177:16:3",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -11257,7 +11257,7 @@
                       "name": "assert",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4752,
+                      "referencedDeclaration": 4623,
                       "src": "5132:6:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_assert_pure$_t_bool_$returns$__$",
@@ -11323,7 +11323,7 @@
                   "name": "onlyServerOrOnlyPopulous",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 4707,
+                  "referencedDeclaration": 4578,
                   "src": "4806:24:3",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -11458,7 +11458,7 @@
             "scope": 1133,
             "src": "4699:547:3",
             "stateMutability": "nonpayable",
-            "superFunction": 4528,
+            "superFunction": 4399,
             "visibility": "public"
           },
           {
@@ -11476,7 +11476,7 @@
                       "name": "depositAddresses",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4444,
+                      "referencedDeclaration": 4315,
                       "src": "5526:16:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -11593,7 +11593,7 @@
             "scope": 1133,
             "src": "5413:147:3",
             "stateMutability": "view",
-            "superFunction": 4535,
+            "superFunction": 4406,
             "visibility": "public"
           },
           {
@@ -11611,7 +11611,7 @@
                       "name": "depositClientIds",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4448,
+                      "referencedDeclaration": 4319,
                       "src": "5807:16:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -11728,7 +11728,7 @@
             "scope": 1133,
             "src": "5680:168:3",
             "stateMutability": "view",
-            "superFunction": 4542,
+            "superFunction": 4413,
             "visibility": "public"
           },
           {
@@ -11746,7 +11746,7 @@
                       "name": "currencyAddresses",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4436,
+                      "referencedDeclaration": 4307,
                       "src": "6078:17:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_bytes32_$_t_address_$",
@@ -11863,7 +11863,7 @@
             "scope": 1133,
             "src": "5969:150:3",
             "stateMutability": "view",
-            "superFunction": 4549,
+            "superFunction": 4420,
             "visibility": "public"
           },
           {
@@ -11881,7 +11881,7 @@
                       "name": "currencySymbols",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4440,
+                      "referencedDeclaration": 4311,
                       "src": "6374:15:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_address_$_t_bytes32_$",
@@ -11998,7 +11998,7 @@
             "scope": 1133,
             "src": "6259:155:3",
             "stateMutability": "view",
-            "superFunction": 4556,
+            "superFunction": 4427,
             "visibility": "public"
           },
           {
@@ -12408,7 +12408,7 @@
             "scope": 1133,
             "src": "6652:274:3",
             "stateMutability": "view",
-            "superFunction": 4567,
+            "superFunction": 4438,
             "visibility": "public"
           },
           {
@@ -12440,7 +12440,7 @@
                             "name": "actionStatus",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4452,
+                            "referencedDeclaration": 4323,
                             "src": "7377:12:3",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -12510,10 +12510,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        4766,
-                        4767
+                        4637,
+                        4638
                       ],
-                      "referencedDeclaration": 4766,
+                      "referencedDeclaration": 4637,
                       "src": "7369:7:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -12552,10 +12552,10 @@
                             "name": "blockchainActionIdData",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4467,
+                            "referencedDeclaration": 4338,
                             "src": "7437:22:3",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                               "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                             }
                           },
@@ -12580,7 +12580,7 @@
                           "nodeType": "IndexAccess",
                           "src": "7437:43:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                            "typeIdentifier": "t_struct$_actionData_$4334_storage",
                             "typeString": "struct iDataManager.actionData storage ref"
                           }
                         },
@@ -12591,7 +12591,7 @@
                         "lValueRequested": false,
                         "memberName": "currency",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4454,
+                        "referencedDeclaration": 4325,
                         "src": "7437:52:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -12608,10 +12608,10 @@
                             "name": "blockchainActionIdData",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4467,
+                            "referencedDeclaration": 4338,
                             "src": "7500:22:3",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                               "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                             }
                           },
@@ -12636,7 +12636,7 @@
                           "nodeType": "IndexAccess",
                           "src": "7500:43:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                            "typeIdentifier": "t_struct$_actionData_$4334_storage",
                             "typeString": "struct iDataManager.actionData storage ref"
                           }
                         },
@@ -12647,7 +12647,7 @@
                         "lValueRequested": false,
                         "memberName": "amount",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4456,
+                        "referencedDeclaration": 4327,
                         "src": "7500:50:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
@@ -12664,10 +12664,10 @@
                             "name": "blockchainActionIdData",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4467,
+                            "referencedDeclaration": 4338,
                             "src": "7560:22:3",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                               "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                             }
                           },
@@ -12692,7 +12692,7 @@
                           "nodeType": "IndexAccess",
                           "src": "7560:43:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                            "typeIdentifier": "t_struct$_actionData_$4334_storage",
                             "typeString": "struct iDataManager.actionData storage ref"
                           }
                         },
@@ -12703,7 +12703,7 @@
                         "lValueRequested": false,
                         "memberName": "accountId",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4458,
+                        "referencedDeclaration": 4329,
                         "src": "7560:53:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes32",
@@ -12720,10 +12720,10 @@
                             "name": "blockchainActionIdData",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 4467,
+                            "referencedDeclaration": 4338,
                             "src": "7623:22:3",
                             "typeDescriptions": {
-                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4463_storage_$",
+                              "typeIdentifier": "t_mapping$_t_bytes32_$_t_struct$_actionData_$4334_storage_$",
                               "typeString": "mapping(bytes32 => struct iDataManager.actionData storage ref)"
                             }
                           },
@@ -12748,7 +12748,7 @@
                           "nodeType": "IndexAccess",
                           "src": "7623:43:3",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_struct$_actionData_$4463_storage",
+                            "typeIdentifier": "t_struct$_actionData_$4334_storage",
                             "typeString": "struct iDataManager.actionData storage ref"
                           }
                         },
@@ -12759,7 +12759,7 @@
                         "lValueRequested": false,
                         "memberName": "to",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 4460,
+                        "referencedDeclaration": 4331,
                         "src": "7623:46:3",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
@@ -12943,7 +12943,7 @@
             "scope": 1133,
             "src": "7198:479:3",
             "stateMutability": "view",
-            "superFunction": 4580,
+            "superFunction": 4451,
             "visibility": "public"
           },
           {
@@ -12961,7 +12961,7 @@
                       "name": "actionStatus",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 4452,
+                      "referencedDeclaration": 4323,
                       "src": "7967:12:3",
                       "typeDescriptions": {
                         "typeIdentifier": "t_mapping$_t_bytes32_$_t_bool_$",
@@ -13078,7 +13078,7 @@
             "scope": 1133,
             "src": "7845:162:3",
             "stateMutability": "view",
-            "superFunction": 4587,
+            "superFunction": 4458,
             "visibility": "public"
           },
           {
@@ -13094,7 +13094,7 @@
                     "name": "version",
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
-                    "referencedDeclaration": 4432,
+                    "referencedDeclaration": 4303,
                     "src": "8215:7:3",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
@@ -13159,7 +13159,7 @@
             "scope": 1133,
             "src": "8137:92:3",
             "stateMutability": "view",
-            "superFunction": 4592,
+            "superFunction": 4463,
             "visibility": "public"
           }
         ],
@@ -13175,5 +13175,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.2",
-  "updatedAt": "2019-03-26T13:21:48.165Z"
+  "updatedAt": "2019-03-26T14:12:24.922Z"
 }

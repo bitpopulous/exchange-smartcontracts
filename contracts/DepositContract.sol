@@ -14,7 +14,7 @@ contract DepositContract is withAccessManager {
 
     // EVENTS
     event EtherTransfer(address to, uint256 value);
-
+    event EtherTransferToServer(address to, bytes32 clientId, uint256 value);
     // NON-CONSTANT METHODS 
 
     /** @dev Constructor that sets the _clientID when the contract is deployed.
@@ -28,7 +28,11 @@ contract DepositContract is withAccessManager {
     // TOKEN RECEIVERS
 
     // payable function to allow this contract receive ether
-    function () public payable {}
+    function () public payable {
+        // send ether to server
+        //require(getServer().send(msg.value) == true);
+        //EtherTransferToServer(getServer(), clientId, msg.value);
+    }
 
     /**
     * @notice Handle the receipt of an NFT
@@ -167,6 +171,10 @@ contract DepositContract is withAccessManager {
       */
     function getVersion() public view returns (uint256) {
         return version;
+    }
+
+    function getServer() public view returns (address) {
+        return AM.server();
     }
 
     // CONSTANT FUNCTIONS
